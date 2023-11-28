@@ -132,7 +132,7 @@ class ScannSelectionVC: UIViewController,UIImagePickerControllerDelegate, UINavi
     
   
     @IBAction func imagepickerAction(_sender:UIButton){
-        print("gausygdijhasbiudikasjdkuhoiajd;ijsiohdsiljdfoihfdsi")
+       
         if UIImagePickerController.isSourceTypeAvailable(UIImagePickerController.SourceType.photoLibrary){
             
             
