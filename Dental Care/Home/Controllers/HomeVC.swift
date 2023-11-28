@@ -17,6 +17,10 @@ class HomeVC: UIViewController,profiledelegate,CoachMarksControllerDataSource, C
     @IBOutlet weak var scanDueView: UIView!
     @IBOutlet weak var notificationButton: UIButton!
     
+    
+    
+    
+    
     @IBOutlet weak var scanDueButton: UIButton!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var notificationLabel: UILabel!
@@ -57,7 +61,7 @@ class HomeVC: UIViewController,profiledelegate,CoachMarksControllerDataSource, C
             editprofileget()
    // RefreshTocken.shared.refreshtokenapi()
 
-        let skipView = CoachMarkSkipDefaultView()
+        let skipView =  CoachMarkSkipDefaultView()
         skipView.setTitle("Skip", for: .normal)
         self.coachMarksController.skipView = skipView
         
