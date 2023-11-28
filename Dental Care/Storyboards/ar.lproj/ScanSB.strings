@@ -1,0 +1,210 @@
+
+/* Class = "UILabel"; text = "Teeth Scan"; ObjectID = "01D-DT-7WS"; */
+"01D-DT-7WS.text" = "مسح الأسنان";
+
+/* Class = "UILabel"; text = "FaceScan and Teeth Scan"; ObjectID = "07L-o1-p0s"; */
+"07L-o1-p0s.text" = "مسح الوجه ومسح الأسنان";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "0Jd-Ms-QMU"; */
+"0Jd-Ms-QMU.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0Jd-Ms-QMU"; */
+"0Jd-Ms-QMU.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Please look straight"; ObjectID = "1CP-at-wYC"; */
+"1CP-at-wYC.text" = "من فضلك انظر مباشرة";
+
+/* Class = "UILabel"; text = "Change"; ObjectID = "22E-qj-2EW"; */
+"22E-qj-2EW.text" = "تغيير";
+
+/* Class = "UILabel"; text = "Hi, please review below settings before we start scan"; ObjectID = "34Z-Ao-0h2"; */
+"34Z-Ao-0h2.text" = "مرحبًا ، يرجى مراجعة الإعدادات أدناه قبل أن نبدأ الفحص";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "8bB-MB-dAe"; */
+"8bB-MB-dAe.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8bB-MB-dAe"; */
+"8bB-MB-dAe.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "   "; ObjectID = "95y-YS-xsB"; */
+"95y-YS-xsB.configuration.title" = "   ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "95y-YS-xsB"; */
+"95y-YS-xsB.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "D46-RD-BR5"; */
+"D46-RD-BR5.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "D46-RD-BR5"; */
+"D46-RD-BR5.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Please review patient name, doctor name & scan modes"; ObjectID = "DYz-gD-FU8"; */
+"DYz-gD-FU8.text" = "يرجى مراجعة اسم المريض واسم الطبيب وأوضاع الفحص";
+
+/* Class = "UILabel"; text = " Submit the photos to your doctor for review."; ObjectID = "FSK-Kq-j6g"; */
+"FSK-Kq-j6g.text" = "أرسل الصور إلى طبيبك للمراجعة.";
+
+/* Class = "UILabel"; text = "Change"; ObjectID = "Ff6-V0-COY"; */
+"Ff6-V0-COY.text" = "تغيير";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "FuM-il-9d7"; */
+"FuM-il-9d7.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FuM-il-9d7"; */
+"FuM-il-9d7.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "GEU-ey-Shx"; */
+"GEU-ey-Shx.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GEU-ey-Shx"; */
+"GEU-ey-Shx.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Do it Alone"; ObjectID = "HSQ-vU-Ax6"; */
+"HSQ-vU-Ax6.text" = "افعلها بمفردك";
+
+/* Class = "UIButton"; configuration.title = "   "; ObjectID = "HrO-jz-CPD"; */
+"HrO-jz-CPD.configuration.title" = "   ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HrO-jz-CPD"; */
+"HrO-jz-CPD.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Face Scan"; ObjectID = "JoR-qu-2cR"; */
+"JoR-qu-2cR.text" = "مسح الوجه";
+
+/* Class = "UILabel"; text = " "; ObjectID = "Jom-43-wti"; */
+"Jom-43-wti.text" = " ";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "MDd-3H-d56"; */
+"MDd-3H-d56.text" = "3";
+
+/* Class = "UILabel"; text = "Start Scan"; ObjectID = "NYs-0d-TYJ"; */
+"NYs-0d-TYJ.text" = "ابدأ المسح";
+
+/* Class = "UILabel"; text = "Please check this video tutorial to understand your face structure"; ObjectID = "Nzu-pN-6Pz"; */
+"Nzu-pN-6Pz.text" = "يرجى مراجعة هذا الفيديو التعليمي لفهم بنية وجهك";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "Q6q-sT-BEQ"; */
+"Q6q-sT-BEQ.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Q6q-sT-BEQ"; */
+"Q6q-sT-BEQ.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Its Done"; ObjectID = "RN1-8Z-Kvm"; */
+"RN1-8Z-Kvm.text" = "تم التنفيذ";
+
+/* Class = "UILabel"; text = "After scan is done, review the photos or retake them before you submit."; ObjectID = "SVC-lA-dLy"; */
+"SVC-lA-dLy.text" = "بعد الانتهاء من الفحص ، راجع الصور أو أعد التقاطها قبل الإرسال.";
+
+/* Class = "UILabel"; text = "Start"; ObjectID = "VIH-dA-jy3"; */
+"VIH-dA-jy3.text" = "ابدأ";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "Wia-6L-iPj"; */
+"Wia-6L-iPj.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Wia-6L-iPj"; */
+"Wia-6L-iPj.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Start Scan"; ObjectID = "Xic-tU-N45"; */
+"Xic-tU-N45.text" = "ابدأ المسح";
+
+/* Class = "UIButton"; configuration.title = "   "; ObjectID = "ZVU-N5-toh"; */
+"ZVU-N5-toh.configuration.title" = "   ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ZVU-N5-toh"; */
+"ZVU-N5-toh.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "Zha-h2-60g"; */
+"Zha-h2-60g.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Zha-h2-60g"; */
+"Zha-h2-60g.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bH9-Td-e2r"; */
+"bH9-Td-e2r.text" = " ";
+
+/* Class = "UILabel"; text = "Start Scan"; ObjectID = "bTM-tI-Udx"; */
+"bTM-tI-Udx.text" = "ابدأ المسح";
+
+/* Class = "UILabel"; text = "View scan"; ObjectID = "bZX-wa-uQg"; */
+"bZX-wa-uQg.text" = "مشاهدة المسح";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "btA-YH-t9D"; */
+"btA-YH-t9D.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "btA-YH-t9D"; */
+"btA-YH-t9D.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cbq-Mp-R6P"; */
+"cbq-Mp-R6P.text" = " ";
+
+/* Class = "UILabel"; text = "Scan Settings"; ObjectID = "gi4-EC-Qyg"; */
+"gi4-EC-Qyg.text" = "خيارات المسح";
+
+/* Class = "UILabel"; text = "Teeth Scan only"; ObjectID = "hep-eO-JJc"; */
+"hep-eO-JJc.text" = "مسح أسنان فقط";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "i1G-FG-b8m"; */
+"i1G-FG-b8m.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "i1G-FG-b8m"; */
+"i1G-FG-b8m.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "iEg-Iu-rAL"; */
+"iEg-Iu-rAL.text" = "1";
+
+/* Class = "UILabel"; text = "Retake"; ObjectID = "jT5-4b-eja"; */
+"jT5-4b-eja.text" = "إعادة";
+
+/* Class = "UILabel"; text = "Face Scan"; ObjectID = "jpD-AL-UWl"; */
+"jpD-AL-UWl.text" = "مسح الوجه";
+
+/* Class = "UILabel"; text = "Patient Name : Emma"; ObjectID = "l5l-b8-FMu"; */
+"l5l-b8-FMu.text" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "laD-aa-XkK"; */
+"laD-aa-XkK.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "laD-aa-XkK"; */
+"laD-aa-XkK.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "   "; ObjectID = "mcI-9T-NjP"; */
+"mcI-9T-NjP.configuration.title" = "   ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mcI-9T-NjP"; */
+"mcI-9T-NjP.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "nO3-69-vph"; */
+"nO3-69-vph.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nO3-69-vph"; */
+"nO3-69-vph.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Doctors"; ObjectID = "s9H-Cf-RMr"; */
+"s9H-Cf-RMr.text" = "الأطباء";
+
+/* Class = "UILabel"; text = "Please check this video tutorial to understand your face structure"; ObjectID = "t3y-cy-rA2"; */
+"t3y-cy-rA2.text" = "يرجى مراجعة هذا الفيديو التعليمي لفهم بنية وجهك";
+
+/* Class = "UILabel"; text = "Press Start to take scan"; ObjectID = "ukZ-kg-UWP"; */
+"ukZ-kg-UWP.text" = "اضغط ابدأ لأخذ المسحة";
+
+/* Class = "UIButton"; configuration.title = "   "; ObjectID = "up5-vt-n3S"; */
+"up5-vt-n3S.configuration.title" = "   ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "up5-vt-n3S"; */
+"up5-vt-n3S.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "vHO-Lp-jhN"; */
+"vHO-Lp-jhN.text" = "2";
+
+/* Class = "UILabel"; text = "Do it with Help"; ObjectID = "whH-pO-xSf"; */
+"whH-pO-xSf.text" = "افعل ذلك بمساعدة";
+
+/* Class = "UILabel"; text = "Scan Tutorial"; ObjectID = "xfl-17-vzn"; */
+"xfl-17-vzn.text" = "مسح البرنامج التعليمي";
+
+/* Class = "UILabel"; text = "Doctor Name:  Dr Mohamed"; ObjectID = "zSd-LM-gSp"; */
+"zSd-LM-gSp.text" = "";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "zkP-yi-1d6"; */
+"zkP-yi-1d6.text" = "4";

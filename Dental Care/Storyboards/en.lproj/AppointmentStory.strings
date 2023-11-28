@@ -1,0 +1,507 @@
+
+/* Class = "UILabel"; text = "Full Name"; ObjectID = "049-aL-NIk"; */
+"049-aL-NIk.text" = "Full Name";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "0e7-3H-TPj"; */
+"0e7-3H-TPj.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0e7-3H-TPj"; */
+"0e7-3H-TPj.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "0he-W3-aDe"; */
+"0he-W3-aDe.text" = "Home";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0ke-4P-Xt8"; */
+"0ke-4P-Xt8.text" = "Label";
+
+/* Class = "UILabel"; text = "Clinic Selection"; ObjectID = "0mY-Bg-4pk"; */
+"0mY-Bg-4pk.text" = "Clinic Selection";
+
+/* Class = "UIButton"; configuration.title = "   "; ObjectID = "0q2-lD-6g7"; */
+"0q2-lD-6g7.configuration.title" = "   ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0q2-lD-6g7"; */
+"0q2-lD-6g7.normalTitle" = "";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "1B3-gT-4vm"; */
+"1B3-gT-4vm.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1B3-gT-4vm"; */
+"1B3-gT-4vm.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1Eg-b7-6dX"; */
+"1Eg-b7-6dX.text" = "Label";
+
+/* Class = "UILabel"; text = " Consultation Type"; ObjectID = "1IV-fD-5S6"; */
+"1IV-fD-5S6.text" = " Consultation Type";
+
+/* Class = "UILabel"; text = "Remote Consultation"; ObjectID = "1Pa-z5-RDq"; */
+"1Pa-z5-RDq.text" = "Remote Consultation";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "1R8-6x-0tO"; */
+"1R8-6x-0tO.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1R8-6x-0tO"; */
+"1R8-6x-0tO.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1x1-4h-bYJ"; */
+"1x1-4h-bYJ.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "1yL-tw-JhN"; */
+"1yL-tw-JhN.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1yL-tw-JhN"; */
+"1yL-tw-JhN.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2Oq-Go-CS7"; */
+"2Oq-Go-CS7.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "34G-LX-gTZ"; */
+"34G-LX-gTZ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3T7-6k-4Qn"; */
+"3T7-6k-4Qn.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3Wm-NW-mLz"; */
+"3Wm-NW-mLz.text" = "Label";
+
+/* Class = "UILabel"; text = "Patient Details"; ObjectID = "3Wx-eb-5MT"; */
+"3Wx-eb-5MT.text" = "Patient Details";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3Ye-wZ-S9v"; */
+"3Ye-wZ-S9v.text" = "Label";
+
+/* Class = "UILabel"; text = "Cancel"; ObjectID = "47C-75-fql"; */
+"47C-75-fql.text" = "Cancel";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4wh-gr-55K"; */
+"4wh-gr-55K.text" = "Label";
+
+/* Class = "UILabel"; text = "Done"; ObjectID = "5Am-t2-gfW"; */
+"5Am-t2-gfW.text" = "Done";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "5Lx-JU-bcW"; */
+"5Lx-JU-bcW.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5Lx-JU-bcW"; */
+"5Lx-JU-bcW.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Submit Request"; ObjectID = "5jm-pY-cLc"; */
+"5jm-pY-cLc.text" = "Submit Request";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5uY-Td-6XI"; */
+"5uY-Td-6XI.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6f2-q2-Rfi"; */
+"6f2-q2-Rfi.text" = "Label";
+
+/* Class = "UILabel"; text = "Book Appointment"; ObjectID = "6hm-Fy-L5P"; */
+"6hm-Fy-L5P.text" = "Book Appointment";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "8W7-iD-0A6"; */
+"8W7-iD-0A6.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8W7-iD-0A6"; */
+"8W7-iD-0A6.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Appointments"; ObjectID = "8x3-qA-hA3"; */
+"8x3-qA-hA3.text" = "Appointments";
+
+/* Class = "UILabel"; text = "Reschedule"; ObjectID = "9DA-lH-yYK"; */
+"9DA-lH-yYK.text" = "Reschedule";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "9Pz-eU-cx9"; */
+"9Pz-eU-cx9.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9Pz-eU-cx9"; */
+"9Pz-eU-cx9.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9Ww-CQ-mDJ"; */
+"9Ww-CQ-mDJ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9n9-a7-FaO"; */
+"9n9-a7-FaO.text" = "Label";
+
+/* Class = "UILabel"; text = "Timings"; ObjectID = "A7V-91-Ld4"; */
+"A7V-91-Ld4.text" = "Timings";
+
+/* Class = "UILabel"; text = "Book Appointments"; ObjectID = "AZ9-Hk-TOf"; */
+"AZ9-Hk-TOf.text" = "Book Appointments";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Afq-fb-dgb"; */
+"Afq-fb-dgb.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "BxN-qd-Dnq"; */
+"BxN-qd-Dnq.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BxN-qd-Dnq"; */
+"BxN-qd-Dnq.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Appointments"; ObjectID = "D19-XD-Eyi"; */
+"D19-XD-Eyi.text" = "Appointments";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Dw0-Yu-YE5"; */
+"Dw0-Yu-YE5.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "E1z-T8-2gG"; */
+"E1z-T8-2gG.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "E1z-T8-2gG"; */
+"E1z-T8-2gG.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ERT-iB-SCK"; */
+"ERT-iB-SCK.text" = "Label";
+
+/* Class = "UILabel"; text = " Consultation Type"; ObjectID = "Eia-PF-Nk9"; */
+"Eia-PF-Nk9.text" = " Consultation Type";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "FOs-hh-dxc"; */
+"FOs-hh-dxc.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FOs-hh-dxc"; */
+"FOs-hh-dxc.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ffg-ee-B3R"; */
+"Ffg-ee-B3R.text" = "Label";
+
+/* Class = "UILabel"; text = "Emirates - ID"; ObjectID = "GPh-jz-2Sp"; */
+"GPh-jz-2Sp.text" = "Emirates - ID";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "GmW-3c-eV0"; */
+"GmW-3c-eV0.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GmW-3c-eV0"; */
+"GmW-3c-eV0.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Emirates - ID"; ObjectID = "Gtk-mt-ALq"; */
+"Gtk-mt-ALq.text" = "Emirates - ID";
+
+/* Class = "UILabel"; text = "Doctors"; ObjectID = "HLe-b1-U3h"; */
+"HLe-b1-U3h.text" = "Doctors";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "KMw-sO-nm0"; */
+"KMw-sO-nm0.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "LB0-Rl-jD0"; */
+"LB0-Rl-jD0.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LB0-Rl-jD0"; */
+"LB0-Rl-jD0.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "LRb-dE-uvg"; */
+"LRb-dE-uvg.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LRb-dE-uvg"; */
+"LRb-dE-uvg.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Lp8-D2-2qa"; */
+"Lp8-D2-2qa.text" = "Label";
+
+/* Class = "UILabel"; text = "Appointments"; ObjectID = "Lqv-Tw-8zV"; */
+"Lqv-Tw-8zV.text" = "Appointments";
+
+/* Class = "UILabel"; text = "E- Mail"; ObjectID = "Lue-8y-DqZ"; */
+"Lue-8y-DqZ.text" = "E- Mail";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NB9-4n-axi"; */
+"NB9-4n-axi.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "NpT-3e-KGp"; */
+"NpT-3e-KGp.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NpT-3e-KGp"; */
+"NpT-3e-KGp.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Change"; ObjectID = "Nq6-Zk-3ar"; */
+"Nq6-Zk-3ar.text" = "Change";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "OSl-bC-kxj"; */
+"OSl-bC-kxj.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "OSl-bC-kxj"; */
+"OSl-bC-kxj.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PAA-Fa-jXv"; */
+"PAA-Fa-jXv.text" = "Label";
+
+/* Class = "UILabel"; text = " "; ObjectID = "QIu-3m-AmV"; */
+"QIu-3m-AmV.text" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QjR-4h-826"; */
+"QjR-4h-826.text" = "Label";
+
+/* Class = "UILabel"; text = " "; ObjectID = "Qna-DT-uZs"; */
+"Qna-DT-uZs.text" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Qrl-9z-4AU"; */
+"Qrl-9z-4AU.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "ROP-ic-HxG"; */
+"ROP-ic-HxG.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ROP-ic-HxG"; */
+"ROP-ic-HxG.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "RYt-Wb-ntf"; */
+"RYt-Wb-ntf.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RYt-Wb-ntf"; */
+"RYt-Wb-ntf.normalTitle" = " ";
+
+/* Class = "UILabel"; text = " "; ObjectID = "SHS-k3-UL1"; */
+"SHS-k3-UL1.text" = " ";
+
+/* Class = "UILabel"; text = "Cancel"; ObjectID = "Sc7-DG-3u3"; */
+"Sc7-DG-3u3.text" = "Cancel";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "TYf-yh-C0o"; */
+"TYf-yh-C0o.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "TYf-yh-C0o"; */
+"TYf-yh-C0o.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "TeA-sc-Fis"; */
+"TeA-sc-Fis.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "TeA-sc-Fis"; */
+"TeA-sc-Fis.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UyK-1t-lp8"; */
+"UyK-1t-lp8.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "V2c-A0-uK0"; */
+"V2c-A0-uK0.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "V2c-A0-uK0"; */
+"V2c-A0-uK0.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "Vbi-aY-CsL"; */
+"Vbi-aY-CsL.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Vcb-pT-Anq"; */
+"Vcb-pT-Anq.text" = "Label";
+
+/* Class = "UILabel"; text = "Select Consultation"; ObjectID = "W38-Ik-vNI"; */
+"W38-Ik-vNI.text" = "Select Consultation";
+
+/* Class = "UILabel"; text = "Cancel"; ObjectID = "WE7-AQ-5C3"; */
+"WE7-AQ-5C3.text" = "Cancel";
+
+/* Class = "UILabel"; text = "Which branch do you prefer to book an appointment?"; ObjectID = "XXR-E9-tDB"; */
+"XXR-E9-tDB.text" = "Which branch do you prefer to book an appointment?";
+
+/* Class = "UILabel"; text = " Consultation Type"; ObjectID = "Xln-HR-zJa"; */
+"Xln-HR-zJa.text" = " Consultation Type";
+
+/* Class = "UILabel"; text = "SAnju"; ObjectID = "YUE-vf-afL"; */
+"YUE-vf-afL.text" = "SAnju";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YhJ-Bd-gvK"; */
+"YhJ-Bd-gvK.text" = "Label";
+
+/* Class = "UILabel"; text = "Your Appointment request has been submited. Our call center representative will call you shortly"; ObjectID = "ZLv-CQ-6Uc"; */
+"ZLv-CQ-6Uc.text" = "Your Appointment request has been submited. Our call center representative will call you shortly";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "ZMY-um-CQx"; */
+"ZMY-um-CQx.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ZMY-um-CQx"; */
+"ZMY-um-CQx.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZUb-53-sRw"; */
+"ZUb-53-sRw.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aPb-vN-Hx2"; */
+"aPb-vN-Hx2.text" = "Label";
+
+/* Class = "UILabel"; text = "Book Appointments"; ObjectID = "aXB-vt-jNE"; */
+"aXB-vt-jNE.text" = "Book Appointments";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bQY-I1-9bU"; */
+"bQY-I1-9bU.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bUF-4O-I2w"; */
+"bUF-4O-I2w.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cQA-wq-NAy"; */
+"cQA-wq-NAy.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "cey-fI-xOX"; */
+"cey-fI-xOX.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cey-fI-xOX"; */
+"cey-fI-xOX.normalTitle" = " ";
+
+/* Class = "UILabel"; text = " "; ObjectID = "dLh-Qp-09o"; */
+"dLh-Qp-09o.text" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "eB0-VC-h3T"; */
+"eB0-VC-h3T.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eB0-VC-h3T"; */
+"eB0-VC-h3T.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Consultation Details"; ObjectID = "edi-oj-91k"; */
+"edi-oj-91k.text" = "Consultation Details";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "esa-Wo-nfk"; */
+"esa-Wo-nfk.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "esa-Wo-nfk"; */
+"esa-Wo-nfk.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Reschedule"; ObjectID = "f77-g9-Mbe"; */
+"f77-g9-Mbe.text" = "Reschedule";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "fRO-Vr-qro"; */
+"fRO-Vr-qro.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fRO-Vr-qro"; */
+"fRO-Vr-qro.normalTitle" = " ";
+
+/* Class = "UILabel"; text = " Consultation Type"; ObjectID = "fUT-Pc-9tC"; */
+"fUT-Pc-9tC.text" = " Consultation Type";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fVJ-jM-Geu"; */
+"fVJ-jM-Geu.text" = "Label";
+
+/* Class = "UILabel"; text = "E- Mail"; ObjectID = "fiW-M8-HX7"; */
+"fiW-M8-HX7.text" = "E- Mail";
+
+/* Class = "UILabel"; text = "Next Step"; ObjectID = "foL-hH-FKk"; */
+"foL-hH-FKk.text" = "Next Step";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gEd-5H-D3k"; */
+"gEd-5H-D3k.text" = "Label";
+
+/* Class = "UILabel"; text = "Appointments"; ObjectID = "gJm-3R-Lr3"; */
+"gJm-3R-Lr3.text" = "Appointments";
+
+/* Class = "UILabel"; text = "What type of dental service that you are looking for your child?"; ObjectID = "gN2-er-t94"; */
+"gN2-er-t94.text" = "What type of dental service that you are looking for your child?";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "gV2-jH-zst"; */
+"gV2-jH-zst.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gV2-jH-zst"; */
+"gV2-jH-zst.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "gpD-54-f41"; */
+"gpD-54-f41.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gpD-54-f41"; */
+"gpD-54-f41.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gpI-l5-Kgz"; */
+"gpI-l5-Kgz.text" = "Label";
+
+/* Class = "UILabel"; text = "Patient Info"; ObjectID = "hCd-Ik-joK"; */
+"hCd-Ik-joK.text" = "Patient Info";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jjN-qj-nig"; */
+"jjN-qj-nig.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jry-BI-QS9"; */
+"jry-BI-QS9.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "kH6-Ji-vNG"; */
+"kH6-Ji-vNG.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "kH6-Ji-vNG"; */
+"kH6-Ji-vNG.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Appointments"; ObjectID = "lFB-Bc-WV3"; */
+"lFB-Bc-WV3.text" = "Appointments";
+
+/* Class = "UILabel"; text = "SAnju"; ObjectID = "lGb-iP-mwg"; */
+"lGb-iP-mwg.text" = "SAnju";
+
+/* Class = "UILabel"; text = " "; ObjectID = "lZA-5s-kpH"; */
+"lZA-5s-kpH.text" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "liE-qp-kxI"; */
+"liE-qp-kxI.text" = "Label";
+
+/* Class = "UILabel"; text = "Review Scans"; ObjectID = "m4p-bK-uFo"; */
+"m4p-bK-uFo.text" = "Review Scans";
+
+/* Class = "UILabel"; text = "Please select time"; ObjectID = "mIE-tr-YAC"; */
+"mIE-tr-YAC.text" = "Please select time";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mlr-zN-0Xy"; */
+"mlr-zN-0Xy.text" = "Label";
+
+/* Class = "UILabel"; text = " "; ObjectID = "nmG-Jf-kPN"; */
+"nmG-Jf-kPN.text" = " ";
+
+/* Class = "UILabel"; text = "Appointments"; ObjectID = "o3p-Qh-sEF"; */
+"o3p-Qh-sEF.text" = "Appointments";
+
+/* Class = "UILabel"; text = "Change"; ObjectID = "oeY-sr-hos"; */
+"oeY-sr-hos.text" = "Change";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "pr5-p5-sL5"; */
+"pr5-p5-sL5.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pr5-p5-sL5"; */
+"pr5-p5-sL5.normalTitle" = " ";
+
+/* Class = "UILabel"; text = " "; ObjectID = "sGi-Ct-koh"; */
+"sGi-Ct-koh.text" = " ";
+
+/* Class = "UILabel"; text = "Next Step"; ObjectID = "sfN-vZ-Dbf"; */
+"sfN-vZ-Dbf.text" = "Next Step";
+
+/* Class = "UILabel"; text = "Full Name"; ObjectID = "tg6-Q5-OKZ"; */
+"tg6-Q5-OKZ.text" = "Full Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tm5-dQ-MBU"; */
+"tm5-dQ-MBU.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uJW-Bu-haB"; */
+"uJW-Bu-haB.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uN7-7M-bXX"; */
+"uN7-7M-bXX.text" = "Label";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "uVf-nk-kbD"; */
+"uVf-nk-kbD.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Appointments"; ObjectID = "ukN-il-GhL"; */
+"ukN-il-GhL.text" = "Appointments";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "v7J-8h-PpT"; */
+"v7J-8h-PpT.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "v7J-8h-PpT"; */
+"v7J-8h-PpT.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "vCH-lG-axh"; */
+"vCH-lG-axh.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vCH-lG-axh"; */
+"vCH-lG-axh.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Face to Face"; ObjectID = "x1h-m2-ewL"; */
+"x1h-m2-ewL.text" = "Face to Face";
+
+/* Class = "UILabel"; text = "Doctor Details"; ObjectID = "x3u-Xd-6iT"; */
+"x3u-Xd-6iT.text" = "Doctor Details";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "xdy-9a-vvU"; */
+"xdy-9a-vvU.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xdy-9a-vvU"; */
+"xdy-9a-vvU.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "xmV-jZ-fm1"; */
+"xmV-jZ-fm1.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xmV-jZ-fm1"; */
+"xmV-jZ-fm1.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xt6-91-8aa"; */
+"xt6-91-8aa.text" = "Label";
+
+/* Class = "UILabel"; text = "jagfusga"; ObjectID = "ycx-1u-NUf"; */
+"ycx-1u-NUf.text" = "jagfusga";

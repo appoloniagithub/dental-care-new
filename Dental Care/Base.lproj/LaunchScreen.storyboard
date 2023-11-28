@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginBG" translatesAutoresizingMaskIntoConstraints="NO" id="DAc-rv-k3v">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kbs-V4-XGU">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 160" translatesAutoresizingMaskIntoConstraints="NO" id="skI-TH-nT5">
+                                        <rect key="frame" x="107" y="334" width="200" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="2f9-Uz-JN3"/>
+                                            <constraint firstAttribute="height" constant="150" id="eOq-OJ-sIk"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="skI-TH-nT5" firstAttribute="centerX" secondItem="kbs-V4-XGU" secondAttribute="centerX" id="EfR-UG-FZZ"/>
+                                    <constraint firstItem="skI-TH-nT5" firstAttribute="centerY" secondItem="kbs-V4-XGU" secondAttribute="centerY" id="dMl-Op-Mu5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kbs-V4-XGU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0h2-oc-a3h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DAc-rv-k3v" secondAttribute="trailing" id="2Np-5f-wgg"/>
+                            <constraint firstItem="DAc-rv-k3v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4Lc-cl-Dun"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kbs-V4-XGU" secondAttribute="bottom" id="JhS-D0-6qQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kbs-V4-XGU" secondAttribute="trailing" id="NKm-Du-OLK"/>
+                            <constraint firstItem="DAc-rv-k3v" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="bOs-On-3Hc"/>
+                            <constraint firstItem="kbs-V4-XGU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="e2T-9U-7Se"/>
+                            <constraint firstAttribute="bottom" secondItem="DAc-rv-k3v" secondAttribute="bottom" id="i6S-X2-EOx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Group 160" width="115" height="84"/>
+        <image name="loginBG" width="142.5" height="308.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

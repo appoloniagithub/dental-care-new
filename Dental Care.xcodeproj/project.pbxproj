@@ -1,0 +1,1824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46550655DF1C9CC8AF5D7CC3 /* Pods_Dental_Care.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2332809D5C922FCBEBBA7D /* Pods_Dental_Care.framework */; };
+		58FFB1368A0301D58E842AC9 /* Pods_Dental_CareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6CA08947B741021D54E2BB /* Pods_Dental_CareTests.framework */; };
+		7075256802A1F24623A0418D /* Pods_Dental_Care_Dental_CareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C914961494334FC789B7BE82 /* Pods_Dental_Care_Dental_CareUITests.framework */; };
+		F6170B9829B858FD00E8E6E3 /* RetakeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6170B9729B858FD00E8E6E3 /* RetakeVC.swift */; };
+		F6185516290A9B7600F97163 /* RPReplay_Final1660553592 2.mov in Resources */ = {isa = PBXBuildFile; fileRef = F6185515290A9B7600F97163 /* RPReplay_Final1660553592 2.mov */; };
+		F618551B290AA60F00F97163 /* FinalReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618551A290AA60F00F97163 /* FinalReviewVC.swift */; };
+		F618551E290BA1D600F97163 /* ScanWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618551D290BA1D600F97163 /* ScanWebservice.swift */; };
+		F6185520290BA92700F97163 /* ReviewPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618551F290BA92600F97163 /* ReviewPopUpVC.swift */; };
+		F6185526290BBAE500F97163 /* MyScanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6185525290BBAE500F97163 /* MyScanVC.swift */; };
+		F6185529290BBE0800F97163 /* myScanWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6185528290BBE0800F97163 /* myScanWebService.swift */; };
+		F618552B290BBEF300F97163 /* MyScanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618552A290BBEF300F97163 /* MyScanModel.swift */; };
+		F61DC06629CC162900800094 /* TeethScanLanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61DC06529CC162900800094 /* TeethScanLanVC.swift */; };
+		F6268F9F29BAFF19004037E2 /* RetakeViewImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6268F9E29BAFF19004037E2 /* RetakeViewImageVC.swift */; };
+		F63D930F29C3420B00C5D505 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63D930E29C3420B00C5D505 /* NotificationModel.swift */; };
+		F63DBA072964243200432037 /* arfacealoneright.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F63DBA022964243100432037 /* arfacealoneright.mp3 */; };
+		F63DBA082964243200432037 /* arfacealoneleft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F63DBA032964243100432037 /* arfacealoneleft.mp3 */; };
+		F63DBA092964243200432037 /* arfacealonemiddle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F63DBA042964243100432037 /* arfacealonemiddle.mp3 */; };
+		F63DBA0A2964243200432037 /* arfacealonestraight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F63DBA052964243100432037 /* arfacealonestraight.mp3 */; };
+		F63DBA0B2964243200432037 /* arfacealonecompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F63DBA062964243200432037 /* arfacealonecompleted.mp3 */; };
+		F64210532908F97400068D45 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64210522908F97400068D45 /* ProfileVC.swift */; };
+		F6421055290912B300068D45 /* CustomTabBarvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6421054290912B300068D45 /* CustomTabBarvc.swift */; };
+		F642105729091B4100068D45 /* ChatConversationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F642105629091B4100068D45 /* ChatConversationsVC.swift */; };
+		F6421059290920B600068D45 /* LibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6421058290920B600068D45 /* LibraryVC.swift */; };
+		F642105F29095BB600068D45 /* ScanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F642105E29095BB600068D45 /* ScanVC.swift */; };
+		F642A0DA296BE52B00584D6D /* Drhome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F642A0D9296BE52B00584D6D /* Drhome.storyboard */; };
+		F64A7C9C29420B6E00B4790C /* TsUpper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C8829420B6C00B4790C /* TsUpper.mp3 */; };
+		F64A7C9D29420B6E00B4790C /* FaCloser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C8929420B6C00B4790C /* FaCloser.mp3 */; };
+		F64A7C9E29420B6E00B4790C /* TsLower.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C8A29420B6D00B4790C /* TsLower.mp3 */; };
+		F64A7C9F29420B6E00B4790C /* FaFurther.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C8B29420B6D00B4790C /* FaFurther.mp3 */; };
+		F64A7CA029420B6E00B4790C /* FhLeft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C8C29420B6D00B4790C /* FhLeft.mp3 */; };
+		F64A7CA129420B6E00B4790C /* FaMiddle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C8D29420B6D00B4790C /* FaMiddle.mp3 */; };
+		F64A7CA229420B6E00B4790C /* TsRight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C8E29420B6D00B4790C /* TsRight.mp3 */; };
+		F64A7CA329420B6E00B4790C /* FaStraight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C8F29420B6D00B4790C /* FaStraight.mp3 */; };
+		F64A7CA429420B6E00B4790C /* FHStraight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C9029420B6D00B4790C /* FHStraight.mp3 */; };
+		F64A7CA529420B6E00B4790C /* FaCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C9129420B6D00B4790C /* FaCompleted.mp3 */; };
+		F64A7CA629420B6E00B4790C /* scanCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C9229420B6D00B4790C /* scanCompleted.mp3 */; };
+		F64A7CA729420B6E00B4790C /* FaLeft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C9329420B6D00B4790C /* FaLeft.mp3 */; };
+		F64A7CA829420B6E00B4790C /* TsCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C9429420B6D00B4790C /* TsCompleted.mp3 */; };
+		F64A7CA929420B6E00B4790C /* TsAttatch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C9529420B6E00B4790C /* TsAttatch.mp3 */; };
+		F64A7CAA29420B6E00B4790C /* TsMiddle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C9629420B6E00B4790C /* TsMiddle.mp3 */; };
+		F64A7CAB29420B6E00B4790C /* TsScope.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C9729420B6E00B4790C /* TsScope.mp3 */; };
+		F64A7CAC29420B6E00B4790C /* FaRight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C9829420B6E00B4790C /* FaRight.mp3 */; };
+		F64A7CAD29420B6E00B4790C /* TsStart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C9929420B6E00B4790C /* TsStart.mp3 */; };
+		F64A7CAE29420B6E00B4790C /* TsStraight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C9A29420B6E00B4790C /* TsStraight.mp3 */; };
+		F64A7CAF29420B6E00B4790C /* TsLeft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7C9B29420B6E00B4790C /* TsLeft.mp3 */; };
+		F64A7CB12942110200B4790C /* TsUOpen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7CB02942110200B4790C /* TsUOpen.mp3 */; };
+		F64A7CB32942195A00B4790C /* FhRight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F64A7CB22942195900B4790C /* FhRight.mp3 */; };
+		F64C67B728FFE18C00AC7D66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C67B628FFE18C00AC7D66 /* AppDelegate.swift */; };
+		F64C67B928FFE18C00AC7D66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C67B828FFE18C00AC7D66 /* SceneDelegate.swift */; };
+		F64C67BB28FFE18C00AC7D66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C67BA28FFE18C00AC7D66 /* ViewController.swift */; };
+		F64C67BE28FFE18C00AC7D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64C67BC28FFE18C00AC7D66 /* Main.storyboard */; };
+		F64C67C128FFE18C00AC7D66 /* Dental_Care.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F64C67BF28FFE18C00AC7D66 /* Dental_Care.xcdatamodeld */; };
+		F64C67C328FFE18F00AC7D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64C67C228FFE18F00AC7D66 /* Assets.xcassets */; };
+		F64C67C628FFE18F00AC7D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64C67C428FFE18F00AC7D66 /* LaunchScreen.storyboard */; };
+		F64C67D128FFE18F00AC7D66 /* Dental_CareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C67D028FFE18F00AC7D66 /* Dental_CareTests.swift */; };
+		F64C67DB28FFE18F00AC7D66 /* Dental_CareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C67DA28FFE18F00AC7D66 /* Dental_CareUITests.swift */; };
+		F64C67DD28FFE18F00AC7D66 /* Dental_CareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C67DC28FFE18F00AC7D66 /* Dental_CareUITestsLaunchTests.swift */; };
+		F64C67EB28FFE1E000AC7D66 /* banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C67EA28FFE1E000AC7D66 /* banner.swift */; };
+		F64C67ED28FFE1EB00AC7D66 /* AudioHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C67EC28FFE1EB00AC7D66 /* AudioHelper.swift */; };
+		F64C67EF28FFE1F600AC7D66 /* ConnectivityCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C67EE28FFE1F600AC7D66 /* ConnectivityCheck.swift */; };
+		F64C67F128FFE20100AC7D66 /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C67F028FFE20100AC7D66 /* BaseURL.swift */; };
+		F64C67F328FFE20F00AC7D66 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C67F228FFE20F00AC7D66 /* Extensions.swift */; };
+		F64C67F528FFE21A00AC7D66 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C67F428FFE21A00AC7D66 /* NetworkManager.swift */; };
+		F64C67F728FFE22500AC7D66 /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C67F628FFE22500AC7D66 /* utilities.swift */; };
+		F64C67FB28FFE25A00AC7D66 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C67FA28FFE25A00AC7D66 /* AppConstants.swift */; };
+		F650F7AA29000DC600A9A266 /* alegreya-sans in Resources */ = {isa = PBXBuildFile; fileRef = F650F7A929000DC600A9A266 /* alegreya-sans */; };
+		F650F7AC29000DD000A9A266 /* Acme in Resources */ = {isa = PBXBuildFile; fileRef = F650F7AB29000DD000A9A266 /* Acme */; };
+		F650F7B0290045C900A9A266 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F650F7AF290045C900A9A266 /* LoginVC.swift */; };
+		F6519305290FFDFE00E06BEC /* ArticleDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6519304290FFDFE00E06BEC /* ArticleDetailVC.swift */; };
+		F65193072910014A00E06BEC /* DoctorSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65193062910014A00E06BEC /* DoctorSelectionVC.swift */; };
+		F6529B6F2983C00000C0B949 /* smileteeth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6529B6E2983C00000C0B949 /* smileteeth.mp3 */; };
+		F6529B712983CB3700C0B949 /* FsHelpSmile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6529B702983CB3700C0B949 /* FsHelpSmile.mp3 */; };
+		F6529B732983FEBF00C0B949 /* ScanPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6529B722983FEBF00C0B949 /* ScanPopupVC.swift */; };
+		F6588D0D290BCC070091373E /* MyScanImagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6588D0C290BCC070091373E /* MyScanImagesVC.swift */; };
+		F6588D0F290BD97F0091373E /* ImageViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6588D0E290BD97F0091373E /* ImageViewVC.swift */; };
+		F65BE0DC2906ACD900A6B482 /* OTPwebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BE0DB2906ACD900A6B482 /* OTPwebService.swift */; };
+		F65BE0DE2906C05600A6B482 /* ForgotPasswordWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BE0DD2906C05600A6B482 /* ForgotPasswordWebservice.swift */; };
+		F65BE0E02906C80600A6B482 /* SetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BE0DF2906C80600A6B482 /* SetPasswordVC.swift */; };
+		F65BE0E22907B67700A6B482 /* contactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BE0E12907B67700A6B482 /* contactUsVC.swift */; };
+		F65BE0E82907F2FC00A6B482 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BE0E72907F2FC00A6B482 /* HomeVC.swift */; };
+		F65D320B290A954000F77149 /* ScanTutorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65D320A290A954000F77149 /* ScanTutorialVC.swift */; };
+		F65F8E85291E7620007CD9F5 /* FAQVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65F8E84291E7620007CD9F5 /* FAQVC.swift */; };
+		F66019CA29754D2600F74DBD /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66019C929754D2500F74DBD /* ServiceManager.swift */; };
+		F6627B332901201000F63A7E /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6627B322901201000F63A7E /* SignUpVC.swift */; };
+		F669B0EA29E3D5B500A18664 /* AppointmentBookingDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669B0E929E3D5B500A18664 /* AppointmentBookingDetailVC.swift */; };
+		F673E77B297FBA9500CD2A22 /* ScanTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F673E77A297FBA9500CD2A22 /* ScanTestVC.swift */; };
+		F6752A50296457A100C90A27 /* arfacehelpeStraight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6752A4C296457A100C90A27 /* arfacehelpeStraight.mp3 */; };
+		F6752A51296457A100C90A27 /* arfacehelpRight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6752A4D296457A100C90A27 /* arfacehelpRight.mp3 */; };
+		F6752A52296457A100C90A27 /* arfacehelpLeft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6752A4E296457A100C90A27 /* arfacehelpLeft.mp3 */; };
+		F6752A53296457A100C90A27 /* arfacehelpCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6752A4F296457A100C90A27 /* arfacehelpCompleted.mp3 */; };
+		F6752A5B29654E8B00C90A27 /* tsarCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6752A5429654E8A00C90A27 /* tsarCompleted.mp3 */; };
+		F6752A5C29654E8B00C90A27 /* tsarOpenup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6752A5529654E8A00C90A27 /* tsarOpenup.mp3 */; };
+		F6752A5D29654E8B00C90A27 /* tsarMiddle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6752A5629654E8A00C90A27 /* tsarMiddle.mp3 */; };
+		F6752A5E29654E8B00C90A27 /* tsarRight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6752A5729654E8A00C90A27 /* tsarRight.mp3 */; };
+		F6752A5F29654E8B00C90A27 /* tsarOpenDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6752A5829654E8A00C90A27 /* tsarOpenDown.mp3 */; };
+		F6752A6029654E8B00C90A27 /* tsarLeft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6752A5929654E8A00C90A27 /* tsarLeft.mp3 */; };
+		F6752A6129654E8B00C90A27 /* tsarStraight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6752A5A29654E8B00C90A27 /* tsarStraight.mp3 */; };
+		F6752A6329656C9600C90A27 /* its-DoneAr.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6752A6229656C9600C90A27 /* its-DoneAr.mp3 */; };
+		F675B0DF292B5D200073F190 /* dentalCareLanguageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675B0DE292B5D200073F190 /* dentalCareLanguageConstants.swift */; };
+		F675B0E1292B5D460073F190 /* dentalCareLanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675B0E0292B5D460073F190 /* dentalCareLanguageManager.swift */; };
+		F675B0E5292B5E230073F190 /* DCPlistHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675B0E4292B5E230073F190 /* DCPlistHelper.swift */; };
+		F675B0E7292B640E0073F190 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675B0E6292B640E0073F190 /* AppState.swift */; };
+		F6776276299CE7FF00B62806 /* DrHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6776275299CE7FF00B62806 /* DrHomeVC.swift */; };
+		F677D98629B6FD4C00A0E4BB /* teethHelpDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F677D98129B6FD4B00A0E4BB /* teethHelpDown.mp3 */; };
+		F677D98729B6FD4C00A0E4BB /* teethHelpRight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F677D98229B6FD4B00A0E4BB /* teethHelpRight.mp3 */; };
+		F677D98829B6FD4C00A0E4BB /* teethHelpMiddle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F677D98329B6FD4B00A0E4BB /* teethHelpMiddle.mp3 */; };
+		F677D98929B6FD4C00A0E4BB /* teethHelpstraight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F677D98429B6FD4B00A0E4BB /* teethHelpstraight.mp3 */; };
+		F677D98A29B6FD4C00A0E4BB /* teethHelpLeft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F677D98529B6FD4C00A0E4BB /* teethHelpLeft.mp3 */; };
+		F677D98D29B6FD5800A0E4BB /* teethHelpCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F677D98B29B6FD5800A0E4BB /* teethHelpCompleted.mp3 */; };
+		F677D98E29B6FD5800A0E4BB /* teethHelpUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F677D98C29B6FD5800A0E4BB /* teethHelpUp.mp3 */; };
+		F6786C0829790FA100A08A47 /* ReviewimageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6786C0729790FA100A08A47 /* ReviewimageVC.swift */; };
+		F67C1381290A53AE00FBAB54 /* ScanExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67C1380290A53AE00FBAB54 /* ScanExtension.swift */; };
+		F67C139E290A673400FBAB54 /* FSH-Straight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1385290A673200FBAB54 /* FSH-Straight.mp3 */; };
+		F67C139F290A673400FBAB54 /* TS-Right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1386290A673200FBAB54 /* TS-Right.mp3 */; };
+		F67C13A0290A673400FBAB54 /* FSH-Left.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1387290A673200FBAB54 /* FSH-Left.mp3 */; };
+		F67C13A1290A673400FBAB54 /* FSH-Completed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1388290A673200FBAB54 /* FSH-Completed.mp3 */; };
+		F67C13A2290A673400FBAB54 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1389290A673200FBAB54 /* click.mp3 */; };
+		F67C13A3290A673400FBAB54 /* FS-StraightAgain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C138A290A673200FBAB54 /* FS-StraightAgain.mp3 */; };
+		F67C13A4290A673400FBAB54 /* TS-Complete.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C138B290A673300FBAB54 /* TS-Complete.mp3 */; };
+		F67C13A5290A673400FBAB54 /* FSInstr.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C138C290A673300FBAB54 /* FSInstr.mp3 */; };
+		F67C13A6290A673400FBAB54 /* camera.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C138D290A673300FBAB54 /* camera.mp3 */; };
+		F67C13A7290A673400FBAB54 /* TS-Left.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C138E290A673300FBAB54 /* TS-Left.mp3 */; };
+		F67C13A8290A673400FBAB54 /* Left.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C138F290A673300FBAB54 /* Left.mp3 */; };
+		F67C13A9290A673400FBAB54 /* Ts-instruction.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1390290A673300FBAB54 /* Ts-instruction.mp3 */; };
+		F67C13AA290A673400FBAB54 /* FS-Correctposition.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1391290A673300FBAB54 /* FS-Correctposition.mp3 */; };
+		F67C13AB290A673400FBAB54 /* TS-lower.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1392290A673300FBAB54 /* TS-lower.mp3 */; };
+		F67C13AC290A673400FBAB54 /* its-Done.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1393290A673300FBAB54 /* its-Done.mp3 */; };
+		F67C13AD290A673400FBAB54 /* TS-Straight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1394290A673300FBAB54 /* TS-Straight.mp3 */; };
+		F67C13AE290A673400FBAB54 /* TS-StraightIn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1395290A673300FBAB54 /* TS-StraightIn.mp3 */; };
+		F67C13AF290A673400FBAB54 /* FSH-Right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1396290A673400FBAB54 /* FSH-Right.mp3 */; };
+		F67C13B0290A673400FBAB54 /* FSFAR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1397290A673400FBAB54 /* FSFAR.mp3 */; };
+		F67C13B1290A673400FBAB54 /* TS-Upper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1398290A673400FBAB54 /* TS-Upper.mp3 */; };
+		F67C13B2290A673400FBAB54 /* TS-Center.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C1399290A673400FBAB54 /* TS-Center.mp3 */; };
+		F67C13B3290A673400FBAB54 /* Straight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C139A290A673400FBAB54 /* Straight.mp3 */; };
+		F67C13B4290A673400FBAB54 /* FS-HoldScan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C139B290A673400FBAB54 /* FS-HoldScan.mp3 */; };
+		F67C13B5290A673400FBAB54 /* FSCLOSER.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C139C290A673400FBAB54 /* FSCLOSER.mp3 */; };
+		F67C13B6290A673400FBAB54 /* Right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67C139D290A673400FBAB54 /* Right.mp3 */; };
+		F67C13B8290A7ABF00FBAB54 /* ScannSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67C13B7290A7ABF00FBAB54 /* ScannSelectionVC.swift */; };
+		F67DDEDB296FCA90003DDACA /* scanModeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67DDEDA296FCA90003DDACA /* scanModeVC.swift */; };
+		F688B05B297A6C6400437801 /* FaLeftNew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F688B059297A6C6400437801 /* FaLeftNew.mp3 */; };
+		F688B05C297A6C6400437801 /* FaRightNew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F688B05A297A6C6400437801 /* FaRightNew.mp3 */; };
+		F68A4AD929D40B2C00F302EB /* AppontmentDeptSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A4AD829D40B2C00F302EB /* AppontmentDeptSelectionVC.swift */; };
+		F68A4ADB29D40B4B00F302EB /* AppointmentQueryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A4ADA29D40B4B00F302EB /* AppointmentQueryVC.swift */; };
+		F68A4ADE29D40F5700F302EB /* appointmentbookingWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A4ADD29D40F5700F302EB /* appointmentbookingWebservice.swift */; };
+		F68A4AE029D41E2100F302EB /* AppointmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A4ADF29D41E2100F302EB /* AppointmentModel.swift */; };
+		F68CE42F290F927B00FEAB2E /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CE42E290F927B00FEAB2E /* EditProfileVC.swift */; };
+		F68CE431290F98B200FEAB2E /* EditProfileWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CE430290F98B200FEAB2E /* EditProfileWebService.swift */; };
+		F68CE433290F994100FEAB2E /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CE432290F994100FEAB2E /* ProfileModel.swift */; };
+		F68CE437290FB10400FEAB2E /* AddMemberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CE436290FB10400FEAB2E /* AddMemberVC.swift */; };
+		F68CE439290FBEE800FEAB2E /* AddMemberWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CE438290FBEE800FEAB2E /* AddMemberWebService.swift */; };
+		F68CE43D290FC54400FEAB2E /* CustomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CE43C290FC54400FEAB2E /* CustomVC.swift */; };
+		F68CE43F290FC74C00FEAB2E /* customWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CE43E290FC74B00FEAB2E /* customWebService.swift */; };
+		F68CE441290FD00000FEAB2E /* LogoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CE440290FD00000FEAB2E /* LogoutVC.swift */; };
+		F68CE443290FD7B000FEAB2E /* ChatWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CE442290FD7B000FEAB2E /* ChatWebservice.swift */; };
+		F68CE448290FD84400FEAB2E /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CE447290FD84400FEAB2E /* ChatModel.swift */; };
+		F68CE44A290FE46600FEAB2E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CE449290FE46600FEAB2E /* ChatViewController.swift */; };
+		F68CE44C290FE4A000FEAB2E /* ChatCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CE44B290FE4A000FEAB2E /* ChatCells.swift */; };
+		F68CE44E290FF55100FEAB2E /* LibraryWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CE44D290FF55100FEAB2E /* LibraryWebService.swift */; };
+		F68FE94C29C2F5FD00983400 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68FE94B29C2F5FD00983400 /* NotificationVC.swift */; };
+		F68FE94E29C311E200983400 /* NotificationWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68FE94D29C311E200983400 /* NotificationWebservice.swift */; };
+		F69A36BA2959804000F74E97 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69A36B92959804000F74E97 /* SocketIOManager.swift */; };
+		F69A36BC2959B4D300F74E97 /* Poppins-Font-2 in Resources */ = {isa = PBXBuildFile; fileRef = F69A36BB2959B4D200F74E97 /* Poppins-Font-2 */; };
+		F69C9388295088E0002CAFB6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69C938A295088E0002CAFB6 /* Home.storyboard */; };
+		F69C938F2950992F002CAFB6 /* ScanSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69C93912950992F002CAFB6 /* ScanSB.storyboard */; };
+		F69C9396295182CF002CAFB6 /* ProfileSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69C9398295182CF002CAFB6 /* ProfileSB.storyboard */; };
+		F69C939D29518762002CAFB6 /* Review.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69C939F29518762002CAFB6 /* Review.storyboard */; };
+		F69C93A429518C91002CAFB6 /* CustomStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69C93A629518C91002CAFB6 /* CustomStory.storyboard */; };
+		F69F199E29C1ABE800773937 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69F199D29C1ABE800773937 /* GoogleService-Info.plist */; };
+		F6A4F4622A41E12B001FD6D3 /* VideoCallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A4F4612A41E12B001FD6D3 /* VideoCallVC.swift */; };
+		F6A5E5A7290BF8EB0099225D /* FamilyMembersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A5E5A6290BF8EB0099225D /* FamilyMembersVC.swift */; };
+		F6A5E5A9290BF97D0099225D /* FamilyMembersWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A5E5A8290BF97D0099225D /* FamilyMembersWebservice.swift */; };
+		F6A982DF29DEA2D100E75AA9 /* AppointmentAllBookingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A982DE29DEA2D100E75AA9 /* AppointmentAllBookingsVC.swift */; };
+		F6A982E129DEAAE200E75AA9 /* appointmentListWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A982E029DEAAE200E75AA9 /* appointmentListWebService.swift */; };
+		F6AF3F942A5FF29D000C5258 /* AppointmentStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AF3F962A5FF29D000C5258 /* AppointmentStory.storyboard */; };
+		F6B6F1D829FFABE30033A231 /* AppointmentAllBookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B6F1D729FFABE30033A231 /* AppointmentAllBookVC.swift */; };
+		F6C918A52A78D9E5009A3839 /* DrHomeWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C918A42A78D9E5009A3839 /* DrHomeWebService.swift */; };
+		F6C9767E2AB3294900DE53A5 /* AppointmentdrSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C9767D2AB3294900DE53A5 /* AppointmentdrSelectionVC.swift */; };
+		F6CE660329028CC600A58E74 /* ForgotPasswordPhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CE660229028CC600A58E74 /* ForgotPasswordPhoneVC.swift */; };
+		F6CE660529028CD900A58E74 /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CE660429028CD900A58E74 /* OTPVC.swift */; };
+		F6CE66082902998100A58E74 /* LoginWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CE66072902998100A58E74 /* LoginWebservice.swift */; };
+		F6CE660B29029EE300A58E74 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CE660A29029EE300A58E74 /* LoginModel.swift */; };
+		F6CE660F2902A0A000A58E74 /* SignUpWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CE660E2902A0A000A58E74 /* SignUpWebService.swift */; };
+		F6CE66112902BB7D00A58E74 /* SignUPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CE66102902BB7D00A58E74 /* SignUPModel.swift */; };
+		F6DA0DA129AC9B8F00530306 /* TeethScanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA0DA029AC9B8F00530306 /* TeethScanVC.swift */; };
+		F6DB004E29B0A6F000B6DF26 /* startScan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6DB004D29B0A6F000B6DF26 /* startScan.mp3 */; };
+		F6E10BBD29F7A74B004CC426 /* AppointmentPatientDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E10BBC29F7A74B004CC426 /* AppointmentPatientDetail.swift */; };
+		F6EA6E70297016F3000574A0 /* facealonecompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6EA6E6F297016F3000574A0 /* facealonecompleted.mp3 */; };
+		F6F5987B2A149B9000FFD5F4 /* videocontrolllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F5987A2A149B9000FFD5F4 /* videocontrolllerVC.swift */; };
+		F6F61EB629D56BBD007A0BAB /* AppointmentTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F61EB529D56BBD007A0BAB /* AppointmentTypeVC.swift */; };
+		F6F61EB829D58FDD007A0BAB /* AppointmentPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F61EB729D58FDD007A0BAB /* AppointmentPopUpVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F64C67CD28FFE18F00AC7D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F64C67AB28FFE18C00AC7D66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F64C67B228FFE18C00AC7D66;
+			remoteInfo = "Dental Care";
+		};
+		F64C67D728FFE18F00AC7D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F64C67AB28FFE18C00AC7D66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F64C67B228FFE18C00AC7D66;
+			remoteInfo = "Dental Care";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18D956A60DB7D412505660C8 /* Pods-Dental Care-Dental CareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dental Care-Dental CareUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dental Care-Dental CareUITests/Pods-Dental Care-Dental CareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A1ED3B9179E4E91DA1CC6A8 /* Pods-Dental Care-Dental CareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dental Care-Dental CareUITests.release.xcconfig"; path = "Target Support Files/Pods-Dental Care-Dental CareUITests/Pods-Dental Care-Dental CareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E2332809D5C922FCBEBBA7D /* Pods_Dental_Care.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dental_Care.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CFCA0EB79245C9BD12734B /* Pods-Dental CareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dental CareTests.release.xcconfig"; path = "Target Support Files/Pods-Dental CareTests/Pods-Dental CareTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADB8BE9276C28F3A145CC748 /* Pods-Dental Care.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dental Care.debug.xcconfig"; path = "Target Support Files/Pods-Dental Care/Pods-Dental Care.debug.xcconfig"; sourceTree = "<group>"; };
+		C914961494334FC789B7BE82 /* Pods_Dental_Care_Dental_CareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dental_Care_Dental_CareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1A7FDEB0536480FA59F555 /* Pods-Dental Care.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dental Care.release.xcconfig"; path = "Target Support Files/Pods-Dental Care/Pods-Dental Care.release.xcconfig"; sourceTree = "<group>"; };
+		F6170B9729B858FD00E8E6E3 /* RetakeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetakeVC.swift; sourceTree = "<group>"; };
+		F6185515290A9B7600F97163 /* RPReplay_Final1660553592 2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "RPReplay_Final1660553592 2.mov"; sourceTree = "<group>"; };
+		F618551A290AA60F00F97163 /* FinalReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalReviewVC.swift; sourceTree = "<group>"; };
+		F618551D290BA1D600F97163 /* ScanWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanWebservice.swift; sourceTree = "<group>"; };
+		F618551F290BA92600F97163 /* ReviewPopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewPopUpVC.swift; sourceTree = "<group>"; };
+		F6185525290BBAE500F97163 /* MyScanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScanVC.swift; sourceTree = "<group>"; };
+		F6185528290BBE0800F97163 /* myScanWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myScanWebService.swift; sourceTree = "<group>"; };
+		F618552A290BBEF300F97163 /* MyScanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScanModel.swift; sourceTree = "<group>"; };
+		F61DC06529CC162900800094 /* TeethScanLanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeethScanLanVC.swift; sourceTree = "<group>"; };
+		F6268F9E29BAFF19004037E2 /* RetakeViewImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetakeViewImageVC.swift; sourceTree = "<group>"; };
+		F63D930E29C3420B00C5D505 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		F63DBA022964243100432037 /* arfacealoneright.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arfacealoneright.mp3; sourceTree = "<group>"; };
+		F63DBA032964243100432037 /* arfacealoneleft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arfacealoneleft.mp3; sourceTree = "<group>"; };
+		F63DBA042964243100432037 /* arfacealonemiddle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arfacealonemiddle.mp3; sourceTree = "<group>"; };
+		F63DBA052964243100432037 /* arfacealonestraight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arfacealonestraight.mp3; sourceTree = "<group>"; };
+		F63DBA062964243200432037 /* arfacealonecompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arfacealonecompleted.mp3; sourceTree = "<group>"; };
+		F64210522908F97400068D45 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		F6421054290912B300068D45 /* CustomTabBarvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarvc.swift; sourceTree = "<group>"; };
+		F642105629091B4100068D45 /* ChatConversationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatConversationsVC.swift; sourceTree = "<group>"; };
+		F6421058290920B600068D45 /* LibraryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryVC.swift; sourceTree = "<group>"; };
+		F642105E29095BB600068D45 /* ScanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanVC.swift; sourceTree = "<group>"; };
+		F642A0D9296BE52B00584D6D /* Drhome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Drhome.storyboard; sourceTree = "<group>"; };
+		F64A7C8829420B6C00B4790C /* TsUpper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TsUpper.mp3; sourceTree = "<group>"; };
+		F64A7C8929420B6C00B4790C /* FaCloser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FaCloser.mp3; sourceTree = "<group>"; };
+		F64A7C8A29420B6D00B4790C /* TsLower.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TsLower.mp3; sourceTree = "<group>"; };
+		F64A7C8B29420B6D00B4790C /* FaFurther.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FaFurther.mp3; sourceTree = "<group>"; };
+		F64A7C8C29420B6D00B4790C /* FhLeft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FhLeft.mp3; sourceTree = "<group>"; };
+		F64A7C8D29420B6D00B4790C /* FaMiddle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FaMiddle.mp3; sourceTree = "<group>"; };
+		F64A7C8E29420B6D00B4790C /* TsRight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TsRight.mp3; sourceTree = "<group>"; };
+		F64A7C8F29420B6D00B4790C /* FaStraight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FaStraight.mp3; sourceTree = "<group>"; };
+		F64A7C9029420B6D00B4790C /* FHStraight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FHStraight.mp3; sourceTree = "<group>"; };
+		F64A7C9129420B6D00B4790C /* FaCompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FaCompleted.mp3; sourceTree = "<group>"; };
+		F64A7C9229420B6D00B4790C /* scanCompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scanCompleted.mp3; sourceTree = "<group>"; };
+		F64A7C9329420B6D00B4790C /* FaLeft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FaLeft.mp3; sourceTree = "<group>"; };
+		F64A7C9429420B6D00B4790C /* TsCompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TsCompleted.mp3; sourceTree = "<group>"; };
+		F64A7C9529420B6E00B4790C /* TsAttatch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TsAttatch.mp3; sourceTree = "<group>"; };
+		F64A7C9629420B6E00B4790C /* TsMiddle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TsMiddle.mp3; sourceTree = "<group>"; };
+		F64A7C9729420B6E00B4790C /* TsScope.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TsScope.mp3; sourceTree = "<group>"; };
+		F64A7C9829420B6E00B4790C /* FaRight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FaRight.mp3; sourceTree = "<group>"; };
+		F64A7C9929420B6E00B4790C /* TsStart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TsStart.mp3; sourceTree = "<group>"; };
+		F64A7C9A29420B6E00B4790C /* TsStraight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TsStraight.mp3; sourceTree = "<group>"; };
+		F64A7C9B29420B6E00B4790C /* TsLeft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TsLeft.mp3; sourceTree = "<group>"; };
+		F64A7CB02942110200B4790C /* TsUOpen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TsUOpen.mp3; sourceTree = "<group>"; };
+		F64A7CB22942195900B4790C /* FhRight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FhRight.mp3; sourceTree = "<group>"; };
+		F64C67B328FFE18C00AC7D66 /* Dental Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dental Care.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64C67B628FFE18C00AC7D66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F64C67B828FFE18C00AC7D66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F64C67BA28FFE18C00AC7D66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F64C67BD28FFE18C00AC7D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F64C67C028FFE18C00AC7D66 /* Dental_Care.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dental_Care.xcdatamodel; sourceTree = "<group>"; };
+		F64C67C228FFE18F00AC7D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F64C67C528FFE18F00AC7D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F64C67C728FFE18F00AC7D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64C67CC28FFE18F00AC7D66 /* Dental CareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dental CareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64C67D028FFE18F00AC7D66 /* Dental_CareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dental_CareTests.swift; sourceTree = "<group>"; };
+		F64C67D628FFE18F00AC7D66 /* Dental CareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dental CareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64C67DA28FFE18F00AC7D66 /* Dental_CareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dental_CareUITests.swift; sourceTree = "<group>"; };
+		F64C67DC28FFE18F00AC7D66 /* Dental_CareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dental_CareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F64C67EA28FFE1E000AC7D66 /* banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = banner.swift; sourceTree = "<group>"; };
+		F64C67EC28FFE1EB00AC7D66 /* AudioHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioHelper.swift; sourceTree = "<group>"; };
+		F64C67EE28FFE1F600AC7D66 /* ConnectivityCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityCheck.swift; sourceTree = "<group>"; };
+		F64C67F028FFE20100AC7D66 /* BaseURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
+		F64C67F228FFE20F00AC7D66 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F64C67F428FFE21A00AC7D66 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F64C67F628FFE22500AC7D66 /* utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utilities.swift; sourceTree = "<group>"; };
+		F64C67FA28FFE25A00AC7D66 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		F650F7A929000DC600A9A266 /* alegreya-sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "alegreya-sans"; sourceTree = "<group>"; };
+		F650F7AB29000DD000A9A266 /* Acme */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Acme; sourceTree = "<group>"; };
+		F650F7AF290045C900A9A266 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F6519304290FFDFE00E06BEC /* ArticleDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailVC.swift; sourceTree = "<group>"; };
+		F65193062910014A00E06BEC /* DoctorSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSelectionVC.swift; sourceTree = "<group>"; };
+		F6529B6E2983C00000C0B949 /* smileteeth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = smileteeth.mp3; sourceTree = "<group>"; };
+		F6529B702983CB3700C0B949 /* FsHelpSmile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FsHelpSmile.mp3; sourceTree = "<group>"; };
+		F6529B722983FEBF00C0B949 /* ScanPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanPopupVC.swift; sourceTree = "<group>"; };
+		F6588D0C290BCC070091373E /* MyScanImagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScanImagesVC.swift; sourceTree = "<group>"; };
+		F6588D0E290BD97F0091373E /* ImageViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewVC.swift; sourceTree = "<group>"; };
+		F65BE0DB2906ACD900A6B482 /* OTPwebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPwebService.swift; sourceTree = "<group>"; };
+		F65BE0DD2906C05600A6B482 /* ForgotPasswordWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordWebservice.swift; sourceTree = "<group>"; };
+		F65BE0DF2906C80600A6B482 /* SetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordVC.swift; sourceTree = "<group>"; };
+		F65BE0E12907B67700A6B482 /* contactUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactUsVC.swift; sourceTree = "<group>"; };
+		F65BE0E72907F2FC00A6B482 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F65D320A290A954000F77149 /* ScanTutorialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTutorialVC.swift; sourceTree = "<group>"; };
+		F65F8E84291E7620007CD9F5 /* FAQVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQVC.swift; sourceTree = "<group>"; };
+		F66019C929754D2500F74DBD /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		F6627B322901201000F63A7E /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		F669B0E929E3D5B500A18664 /* AppointmentBookingDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentBookingDetailVC.swift; sourceTree = "<group>"; };
+		F673E77A297FBA9500CD2A22 /* ScanTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTestVC.swift; sourceTree = "<group>"; };
+		F6752A4C296457A100C90A27 /* arfacehelpeStraight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arfacehelpeStraight.mp3; sourceTree = "<group>"; };
+		F6752A4D296457A100C90A27 /* arfacehelpRight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arfacehelpRight.mp3; sourceTree = "<group>"; };
+		F6752A4E296457A100C90A27 /* arfacehelpLeft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arfacehelpLeft.mp3; sourceTree = "<group>"; };
+		F6752A4F296457A100C90A27 /* arfacehelpCompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arfacehelpCompleted.mp3; sourceTree = "<group>"; };
+		F6752A5429654E8A00C90A27 /* tsarCompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tsarCompleted.mp3; sourceTree = "<group>"; };
+		F6752A5529654E8A00C90A27 /* tsarOpenup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tsarOpenup.mp3; sourceTree = "<group>"; };
+		F6752A5629654E8A00C90A27 /* tsarMiddle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tsarMiddle.mp3; sourceTree = "<group>"; };
+		F6752A5729654E8A00C90A27 /* tsarRight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tsarRight.mp3; sourceTree = "<group>"; };
+		F6752A5829654E8A00C90A27 /* tsarOpenDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tsarOpenDown.mp3; sourceTree = "<group>"; };
+		F6752A5929654E8A00C90A27 /* tsarLeft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tsarLeft.mp3; sourceTree = "<group>"; };
+		F6752A5A29654E8B00C90A27 /* tsarStraight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tsarStraight.mp3; sourceTree = "<group>"; };
+		F6752A6229656C9600C90A27 /* its-DoneAr.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "its-DoneAr.mp3"; sourceTree = "<group>"; };
+		F675B0DE292B5D200073F190 /* dentalCareLanguageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dentalCareLanguageConstants.swift; sourceTree = "<group>"; };
+		F675B0E0292B5D460073F190 /* dentalCareLanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dentalCareLanguageManager.swift; sourceTree = "<group>"; };
+		F675B0E4292B5E230073F190 /* DCPlistHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCPlistHelper.swift; sourceTree = "<group>"; };
+		F675B0E6292B640E0073F190 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		F6776275299CE7FF00B62806 /* DrHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHomeVC.swift; sourceTree = "<group>"; };
+		F677D98129B6FD4B00A0E4BB /* teethHelpDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = teethHelpDown.mp3; sourceTree = "<group>"; };
+		F677D98229B6FD4B00A0E4BB /* teethHelpRight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = teethHelpRight.mp3; sourceTree = "<group>"; };
+		F677D98329B6FD4B00A0E4BB /* teethHelpMiddle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = teethHelpMiddle.mp3; sourceTree = "<group>"; };
+		F677D98429B6FD4B00A0E4BB /* teethHelpstraight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = teethHelpstraight.mp3; sourceTree = "<group>"; };
+		F677D98529B6FD4C00A0E4BB /* teethHelpLeft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = teethHelpLeft.mp3; sourceTree = "<group>"; };
+		F677D98B29B6FD5800A0E4BB /* teethHelpCompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = teethHelpCompleted.mp3; sourceTree = "<group>"; };
+		F677D98C29B6FD5800A0E4BB /* teethHelpUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = teethHelpUp.mp3; sourceTree = "<group>"; };
+		F6786C0729790FA100A08A47 /* ReviewimageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewimageVC.swift; sourceTree = "<group>"; };
+		F67C1380290A53AE00FBAB54 /* ScanExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanExtension.swift; sourceTree = "<group>"; };
+		F67C1385290A673200FBAB54 /* FSH-Straight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "FSH-Straight.mp3"; sourceTree = "<group>"; };
+		F67C1386290A673200FBAB54 /* TS-Right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TS-Right.mp3"; sourceTree = "<group>"; };
+		F67C1387290A673200FBAB54 /* FSH-Left.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "FSH-Left.mp3"; sourceTree = "<group>"; };
+		F67C1388290A673200FBAB54 /* FSH-Completed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "FSH-Completed.mp3"; sourceTree = "<group>"; };
+		F67C1389290A673200FBAB54 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		F67C138A290A673200FBAB54 /* FS-StraightAgain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "FS-StraightAgain.mp3"; sourceTree = "<group>"; };
+		F67C138B290A673300FBAB54 /* TS-Complete.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TS-Complete.mp3"; sourceTree = "<group>"; };
+		F67C138C290A673300FBAB54 /* FSInstr.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FSInstr.mp3; sourceTree = "<group>"; };
+		F67C138D290A673300FBAB54 /* camera.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = camera.mp3; sourceTree = "<group>"; };
+		F67C138E290A673300FBAB54 /* TS-Left.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TS-Left.mp3"; sourceTree = "<group>"; };
+		F67C138F290A673300FBAB54 /* Left.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Left.mp3; sourceTree = "<group>"; };
+		F67C1390290A673300FBAB54 /* Ts-instruction.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ts-instruction.mp3"; sourceTree = "<group>"; };
+		F67C1391290A673300FBAB54 /* FS-Correctposition.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "FS-Correctposition.mp3"; sourceTree = "<group>"; };
+		F67C1392290A673300FBAB54 /* TS-lower.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TS-lower.mp3"; sourceTree = "<group>"; };
+		F67C1393290A673300FBAB54 /* its-Done.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "its-Done.mp3"; sourceTree = "<group>"; };
+		F67C1394290A673300FBAB54 /* TS-Straight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TS-Straight.mp3"; sourceTree = "<group>"; };
+		F67C1395290A673300FBAB54 /* TS-StraightIn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TS-StraightIn.mp3"; sourceTree = "<group>"; };
+		F67C1396290A673400FBAB54 /* FSH-Right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "FSH-Right.mp3"; sourceTree = "<group>"; };
+		F67C1397290A673400FBAB54 /* FSFAR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FSFAR.mp3; sourceTree = "<group>"; };
+		F67C1398290A673400FBAB54 /* TS-Upper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TS-Upper.mp3"; sourceTree = "<group>"; };
+		F67C1399290A673400FBAB54 /* TS-Center.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TS-Center.mp3"; sourceTree = "<group>"; };
+		F67C139A290A673400FBAB54 /* Straight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Straight.mp3; sourceTree = "<group>"; };
+		F67C139B290A673400FBAB54 /* FS-HoldScan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "FS-HoldScan.mp3"; sourceTree = "<group>"; };
+		F67C139C290A673400FBAB54 /* FSCLOSER.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FSCLOSER.mp3; sourceTree = "<group>"; };
+		F67C139D290A673400FBAB54 /* Right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Right.mp3; sourceTree = "<group>"; };
+		F67C13B7290A7ABF00FBAB54 /* ScannSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannSelectionVC.swift; sourceTree = "<group>"; };
+		F67DDEDA296FCA90003DDACA /* scanModeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scanModeVC.swift; sourceTree = "<group>"; };
+		F688B059297A6C6400437801 /* FaLeftNew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FaLeftNew.mp3; sourceTree = "<group>"; };
+		F688B05A297A6C6400437801 /* FaRightNew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FaRightNew.mp3; sourceTree = "<group>"; };
+		F68A4AD829D40B2C00F302EB /* AppontmentDeptSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppontmentDeptSelectionVC.swift; sourceTree = "<group>"; };
+		F68A4ADA29D40B4B00F302EB /* AppointmentQueryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentQueryVC.swift; sourceTree = "<group>"; };
+		F68A4ADD29D40F5700F302EB /* appointmentbookingWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appointmentbookingWebservice.swift; sourceTree = "<group>"; };
+		F68A4ADF29D41E2100F302EB /* AppointmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentModel.swift; sourceTree = "<group>"; };
+		F68CE42E290F927B00FEAB2E /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		F68CE430290F98B200FEAB2E /* EditProfileWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileWebService.swift; sourceTree = "<group>"; };
+		F68CE432290F994100FEAB2E /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		F68CE436290FB10400FEAB2E /* AddMemberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemberVC.swift; sourceTree = "<group>"; };
+		F68CE438290FBEE800FEAB2E /* AddMemberWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemberWebService.swift; sourceTree = "<group>"; };
+		F68CE43C290FC54400FEAB2E /* CustomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVC.swift; sourceTree = "<group>"; };
+		F68CE43E290FC74B00FEAB2E /* customWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customWebService.swift; sourceTree = "<group>"; };
+		F68CE440290FD00000FEAB2E /* LogoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutVC.swift; sourceTree = "<group>"; };
+		F68CE442290FD7B000FEAB2E /* ChatWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWebservice.swift; sourceTree = "<group>"; };
+		F68CE447290FD84400FEAB2E /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		F68CE449290FE46600FEAB2E /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		F68CE44B290FE4A000FEAB2E /* ChatCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCells.swift; sourceTree = "<group>"; };
+		F68CE44D290FF55100FEAB2E /* LibraryWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryWebService.swift; sourceTree = "<group>"; };
+		F68FE94B29C2F5FD00983400 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		F68FE94D29C311E200983400 /* NotificationWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationWebservice.swift; sourceTree = "<group>"; };
+		F69A36B92959804000F74E97 /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		F69A36BB2959B4D200F74E97 /* Poppins-Font-2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Poppins-Font-2"; sourceTree = "<group>"; };
+		F69C938429506573002CAFB6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		F69C938529506573002CAFB6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F69C938729507163002CAFB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		F69C9389295088E0002CAFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		F69C938C295088E8002CAFB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Home.strings; sourceTree = "<group>"; };
+		F69C938E295088E9002CAFB6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Home.strings; sourceTree = "<group>"; };
+		F69C93902950992F002CAFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ScanSB.storyboard; sourceTree = "<group>"; };
+		F69C939329509939002CAFB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ScanSB.strings; sourceTree = "<group>"; };
+		F69C93952950993C002CAFB6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ScanSB.strings; sourceTree = "<group>"; };
+		F69C9397295182CF002CAFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ProfileSB.storyboard; sourceTree = "<group>"; };
+		F69C939A295182D4002CAFB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ProfileSB.strings; sourceTree = "<group>"; };
+		F69C939C295182D5002CAFB6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ProfileSB.strings; sourceTree = "<group>"; };
+		F69C939E29518762002CAFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Review.storyboard; sourceTree = "<group>"; };
+		F69C93A12951876D002CAFB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Review.strings; sourceTree = "<group>"; };
+		F69C93A32951876E002CAFB6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Review.strings; sourceTree = "<group>"; };
+		F69C93A529518C91002CAFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CustomStory.storyboard; sourceTree = "<group>"; };
+		F69C93A829518C93002CAFB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CustomStory.strings; sourceTree = "<group>"; };
+		F69C93AA29518C95002CAFB6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/CustomStory.strings; sourceTree = "<group>"; };
+		F69C93AB295199AC002CAFB6 /* Dental Care.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Dental Care.entitlements"; sourceTree = "<group>"; };
+		F69F199D29C1ABE800773937 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6A4F4612A41E12B001FD6D3 /* VideoCallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallVC.swift; sourceTree = "<group>"; };
+		F6A5E5A6290BF8EB0099225D /* FamilyMembersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMembersVC.swift; sourceTree = "<group>"; };
+		F6A5E5A8290BF97D0099225D /* FamilyMembersWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMembersWebservice.swift; sourceTree = "<group>"; };
+		F6A982DE29DEA2D100E75AA9 /* AppointmentAllBookingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentAllBookingsVC.swift; sourceTree = "<group>"; };
+		F6A982E029DEAAE200E75AA9 /* appointmentListWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appointmentListWebService.swift; sourceTree = "<group>"; };
+		F6AF3F952A5FF29D000C5258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AppointmentStory.storyboard; sourceTree = "<group>"; };
+		F6AF3F982A5FF2A6000C5258 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppointmentStory.strings; sourceTree = "<group>"; };
+		F6AF3F9A2A5FF2AB000C5258 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppointmentStory.strings; sourceTree = "<group>"; };
+		F6B6F1D729FFABE30033A231 /* AppointmentAllBookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentAllBookVC.swift; sourceTree = "<group>"; };
+		F6C918A42A78D9E5009A3839 /* DrHomeWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHomeWebService.swift; sourceTree = "<group>"; };
+		F6C9767D2AB3294900DE53A5 /* AppointmentdrSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentdrSelectionVC.swift; sourceTree = "<group>"; };
+		F6CE660229028CC600A58E74 /* ForgotPasswordPhoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordPhoneVC.swift; sourceTree = "<group>"; };
+		F6CE660429028CD900A58E74 /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
+		F6CE66072902998100A58E74 /* LoginWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWebservice.swift; sourceTree = "<group>"; };
+		F6CE660A29029EE300A58E74 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		F6CE660E2902A0A000A58E74 /* SignUpWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWebService.swift; sourceTree = "<group>"; };
+		F6CE66102902BB7D00A58E74 /* SignUPModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPModel.swift; sourceTree = "<group>"; };
+		F6DA0DA029AC9B8F00530306 /* TeethScanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeethScanVC.swift; sourceTree = "<group>"; };
+		F6DB004D29B0A6F000B6DF26 /* startScan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = startScan.mp3; sourceTree = "<group>"; };
+		F6E10BBC29F7A74B004CC426 /* AppointmentPatientDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentPatientDetail.swift; sourceTree = "<group>"; };
+		F6EA6E6F297016F3000574A0 /* facealonecompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = facealonecompleted.mp3; sourceTree = "<group>"; };
+		F6F5987A2A149B9000FFD5F4 /* videocontrolllerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videocontrolllerVC.swift; sourceTree = "<group>"; };
+		F6F61EB529D56BBD007A0BAB /* AppointmentTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentTypeVC.swift; sourceTree = "<group>"; };
+		F6F61EB729D58FDD007A0BAB /* AppointmentPopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentPopUpVC.swift; sourceTree = "<group>"; };
+		F752213B95C3CE10B40C1A49 /* Pods-Dental CareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dental CareTests.debug.xcconfig"; path = "Target Support Files/Pods-Dental CareTests/Pods-Dental CareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA6CA08947B741021D54E2BB /* Pods_Dental_CareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dental_CareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F64C67B028FFE18C00AC7D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46550655DF1C9CC8AF5D7CC3 /* Pods_Dental_Care.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64C67C928FFE18F00AC7D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FFB1368A0301D58E842AC9 /* Pods_Dental_CareTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64C67D328FFE18F00AC7D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7075256802A1F24623A0418D /* Pods_Dental_Care_Dental_CareUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91AA2CB4E1176B634939C368 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADB8BE9276C28F3A145CC748 /* Pods-Dental Care.debug.xcconfig */,
+				ED1A7FDEB0536480FA59F555 /* Pods-Dental Care.release.xcconfig */,
+				18D956A60DB7D412505660C8 /* Pods-Dental Care-Dental CareUITests.debug.xcconfig */,
+				2A1ED3B9179E4E91DA1CC6A8 /* Pods-Dental Care-Dental CareUITests.release.xcconfig */,
+				F752213B95C3CE10B40C1A49 /* Pods-Dental CareTests.debug.xcconfig */,
+				71CFCA0EB79245C9BD12734B /* Pods-Dental CareTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDDD697BD3BB16326A531C97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E2332809D5C922FCBEBBA7D /* Pods_Dental_Care.framework */,
+				C914961494334FC789B7BE82 /* Pods_Dental_Care_Dental_CareUITests.framework */,
+				FA6CA08947B741021D54E2BB /* Pods_Dental_CareTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6185519290AA5DB00F97163 /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				F618551C290ABD2700F97163 /* WebService */,
+				F618551A290AA60F00F97163 /* FinalReviewVC.swift */,
+				F6786C0729790FA100A08A47 /* ReviewimageVC.swift */,
+				F6170B9729B858FD00E8E6E3 /* RetakeVC.swift */,
+				F6268F9E29BAFF19004037E2 /* RetakeViewImageVC.swift */,
+				F618551F290BA92600F97163 /* ReviewPopUpVC.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		F618551C290ABD2700F97163 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				F618551D290BA1D600F97163 /* ScanWebservice.swift */,
+				F6588D0E290BD97F0091373E /* ImageViewVC.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		F6185523290BBA8200F97163 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F618552C290BBEFB00F97163 /* Model */,
+				F6185527290BBDBD00F97163 /* webService */,
+				F6185524290BBA9900F97163 /* Controllers */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F6185524290BBA9900F97163 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F6588D0C290BCC070091373E /* MyScanImagesVC.swift */,
+				F6185525290BBAE500F97163 /* MyScanVC.swift */,
+				F6A5E5A6290BF8EB0099225D /* FamilyMembersVC.swift */,
+				F68CE42E290F927B00FEAB2E /* EditProfileVC.swift */,
+				F68CE440290FD00000FEAB2E /* LogoutVC.swift */,
+				F68CE436290FB10400FEAB2E /* AddMemberVC.swift */,
+				F68CE43C290FC54400FEAB2E /* CustomVC.swift */,
+				F65193062910014A00E06BEC /* DoctorSelectionVC.swift */,
+				F65F8E84291E7620007CD9F5 /* FAQVC.swift */,
+				F6F5987A2A149B9000FFD5F4 /* videocontrolllerVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F6185527290BBDBD00F97163 /* webService */ = {
+			isa = PBXGroup;
+			children = (
+				F6185528290BBE0800F97163 /* myScanWebService.swift */,
+				F6A5E5A8290BF97D0099225D /* FamilyMembersWebservice.swift */,
+				F68CE430290F98B200FEAB2E /* EditProfileWebService.swift */,
+				F68CE438290FBEE800FEAB2E /* AddMemberWebService.swift */,
+				F68CE43E290FC74B00FEAB2E /* customWebService.swift */,
+			);
+			path = webService;
+			sourceTree = "<group>";
+		};
+		F618552C290BBEFB00F97163 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F618552A290BBEF300F97163 /* MyScanModel.swift */,
+				F68CE432290F994100FEAB2E /* ProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F61DC06929CD7CF000800094 /* AppointmentBooking */ = {
+			isa = PBXGroup;
+			children = (
+				F68A4ADC29D40EFF00F302EB /* webservice */,
+				F61DC06A29CD7D3A00800094 /* Controllers */,
+				F68A4ADF29D41E2100F302EB /* AppointmentModel.swift */,
+			);
+			path = AppointmentBooking;
+			sourceTree = "<group>";
+		};
+		F61DC06A29CD7D3A00800094 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F68A4AD829D40B2C00F302EB /* AppontmentDeptSelectionVC.swift */,
+				F6F61EB529D56BBD007A0BAB /* AppointmentTypeVC.swift */,
+				F669B0E929E3D5B500A18664 /* AppointmentBookingDetailVC.swift */,
+				F68A4ADA29D40B4B00F302EB /* AppointmentQueryVC.swift */,
+				F6F61EB729D58FDD007A0BAB /* AppointmentPopUpVC.swift */,
+				F6A982DE29DEA2D100E75AA9 /* AppointmentAllBookingsVC.swift */,
+				F6E10BBC29F7A74B004CC426 /* AppointmentPatientDetail.swift */,
+				F6B6F1D729FFABE30033A231 /* AppointmentAllBookVC.swift */,
+				F6A4F4612A41E12B001FD6D3 /* VideoCallVC.swift */,
+				F6C9767D2AB3294900DE53A5 /* AppointmentdrSelectionVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F642105C2909526D00068D45 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				F642105D2909528400068D45 /* Controllers */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		F642105D2909528400068D45 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F642105E29095BB600068D45 /* ScanVC.swift */,
+				F67C1380290A53AE00FBAB54 /* ScanExtension.swift */,
+				F67C13B7290A7ABF00FBAB54 /* ScannSelectionVC.swift */,
+				F67DDEDA296FCA90003DDACA /* scanModeVC.swift */,
+				F65D320A290A954000F77149 /* ScanTutorialVC.swift */,
+				F673E77A297FBA9500CD2A22 /* ScanTestVC.swift */,
+				F6529B722983FEBF00C0B949 /* ScanPopupVC.swift */,
+				F6DA0DA029AC9B8F00530306 /* TeethScanVC.swift */,
+				F61DC06529CC162900800094 /* TeethScanLanVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F64C67AA28FFE18C00AC7D66 = {
+			isa = PBXGroup;
+			children = (
+				F64C67B528FFE18C00AC7D66 /* Dental Care */,
+				F64C67CF28FFE18F00AC7D66 /* Dental CareTests */,
+				F64C67D928FFE18F00AC7D66 /* Dental CareUITests */,
+				F64C67B428FFE18C00AC7D66 /* Products */,
+				91AA2CB4E1176B634939C368 /* Pods */,
+				EDDD697BD3BB16326A531C97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F64C67B428FFE18C00AC7D66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F64C67B328FFE18C00AC7D66 /* Dental Care.app */,
+				F64C67CC28FFE18F00AC7D66 /* Dental CareTests.xctest */,
+				F64C67D628FFE18F00AC7D66 /* Dental CareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F64C67B528FFE18C00AC7D66 /* Dental Care */ = {
+			isa = PBXGroup;
+			children = (
+				F69C93AB295199AC002CAFB6 /* Dental Care.entitlements */,
+				F650F7AD2900458300A9A266 /* Login */,
+				F65BE0E52907F22F00A6B482 /* Home */,
+				F642105C2909526D00068D45 /* Scan */,
+				F6185523290BBA8200F97163 /* Profile */,
+				F6776271299CE77300B62806 /* DrHome */,
+				F6185519290AA5DB00F97163 /* Review */,
+				F61DC06929CD7CF000800094 /* AppointmentBooking */,
+				F650F7AE2900459F00A9A266 /* Storyboards */,
+				F64C67B628FFE18C00AC7D66 /* AppDelegate.swift */,
+				F64C67B828FFE18C00AC7D66 /* SceneDelegate.swift */,
+				F64C67BA28FFE18C00AC7D66 /* ViewController.swift */,
+				F64C67C228FFE18F00AC7D66 /* Assets.xcassets */,
+				F64C67C428FFE18F00AC7D66 /* LaunchScreen.storyboard */,
+				F64C67C728FFE18F00AC7D66 /* Info.plist */,
+				F64C67E928FFE1A500AC7D66 /* Utilities */,
+				F64C67BF28FFE18C00AC7D66 /* Dental_Care.xcdatamodeld */,
+			);
+			path = "Dental Care";
+			sourceTree = "<group>";
+		};
+		F64C67CF28FFE18F00AC7D66 /* Dental CareTests */ = {
+			isa = PBXGroup;
+			children = (
+				F64C67D028FFE18F00AC7D66 /* Dental_CareTests.swift */,
+			);
+			path = "Dental CareTests";
+			sourceTree = "<group>";
+		};
+		F64C67D928FFE18F00AC7D66 /* Dental CareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F64C67DA28FFE18F00AC7D66 /* Dental_CareUITests.swift */,
+				F64C67DC28FFE18F00AC7D66 /* Dental_CareUITestsLaunchTests.swift */,
+			);
+			path = "Dental CareUITests";
+			sourceTree = "<group>";
+		};
+		F64C67E928FFE1A500AC7D66 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F67C1384290A671600FBAB54 /* mediaFiles */,
+				F64C67F028FFE20100AC7D66 /* BaseURL.swift */,
+				F650F7A929000DC600A9A266 /* alegreya-sans */,
+				F64C67EE28FFE1F600AC7D66 /* ConnectivityCheck.swift */,
+				F64C67F228FFE20F00AC7D66 /* Extensions.swift */,
+				F69A36B92959804000F74E97 /* SocketIOManager.swift */,
+				F64C67F628FFE22500AC7D66 /* utilities.swift */,
+				F675B0DD292B5CE60073F190 /* Language */,
+				F64C67F428FFE21A00AC7D66 /* NetworkManager.swift */,
+				F64C67EC28FFE1EB00AC7D66 /* AudioHelper.swift */,
+				F69A36BB2959B4D200F74E97 /* Poppins-Font-2 */,
+				F650F7AB29000DD000A9A266 /* Acme */,
+				F66019C929754D2500F74DBD /* ServiceManager.swift */,
+				F64C67FA28FFE25A00AC7D66 /* AppConstants.swift */,
+				F69F199D29C1ABE800773937 /* GoogleService-Info.plist */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F650F7AD2900458300A9A266 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F6CE660929029EB800A58E74 /* Model */,
+				F6CE66062902915600A58E74 /* Webservice */,
+				F6627B352901205300F63A7E /* Controllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F650F7AE2900459F00A9A266 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F64C67BC28FFE18C00AC7D66 /* Main.storyboard */,
+				F69C938A295088E0002CAFB6 /* Home.storyboard */,
+				F69C93912950992F002CAFB6 /* ScanSB.storyboard */,
+				F69C9398295182CF002CAFB6 /* ProfileSB.storyboard */,
+				F69C939F29518762002CAFB6 /* Review.storyboard */,
+				F69C93A629518C91002CAFB6 /* CustomStory.storyboard */,
+				F6AF3F962A5FF29D000C5258 /* AppointmentStory.storyboard */,
+				F642A0D9296BE52B00584D6D /* Drhome.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F65BE0E52907F22F00A6B482 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F68CE446290FD81200FEAB2E /* Model */,
+				F68CE445290FD7DE00FEAB2E /* WebService */,
+				F65BE0E62907F2B100A6B482 /* Controllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F65BE0E62907F2B100A6B482 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F65BE0E72907F2FC00A6B482 /* HomeVC.swift */,
+				F64210522908F97400068D45 /* ProfileVC.swift */,
+				F6421054290912B300068D45 /* CustomTabBarvc.swift */,
+				F642105629091B4100068D45 /* ChatConversationsVC.swift */,
+				F6421058290920B600068D45 /* LibraryVC.swift */,
+				F68CE449290FE46600FEAB2E /* ChatViewController.swift */,
+				F68CE44B290FE4A000FEAB2E /* ChatCells.swift */,
+				F6519304290FFDFE00E06BEC /* ArticleDetailVC.swift */,
+				F68FE94B29C2F5FD00983400 /* NotificationVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F6627B352901205300F63A7E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F650F7AF290045C900A9A266 /* LoginVC.swift */,
+				F6627B322901201000F63A7E /* SignUpVC.swift */,
+				F6CE660229028CC600A58E74 /* ForgotPasswordPhoneVC.swift */,
+				F6CE660429028CD900A58E74 /* OTPVC.swift */,
+				F65BE0DF2906C80600A6B482 /* SetPasswordVC.swift */,
+				F65BE0E12907B67700A6B482 /* contactUsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F675B0DD292B5CE60073F190 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				F675B0DE292B5D200073F190 /* dentalCareLanguageConstants.swift */,
+				F675B0E0292B5D460073F190 /* dentalCareLanguageManager.swift */,
+				F675B0E4292B5E230073F190 /* DCPlistHelper.swift */,
+				F675B0E6292B640E0073F190 /* AppState.swift */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		F6776271299CE77300B62806 /* DrHome */ = {
+			isa = PBXGroup;
+			children = (
+				F6776272299CE7B800B62806 /* ViewControllers */,
+				F6C918A62A78D9EC009A3839 /* webService */,
+			);
+			path = DrHome;
+			sourceTree = "<group>";
+		};
+		F6776272299CE7B800B62806 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F6776275299CE7FF00B62806 /* DrHomeVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F67C1384290A671600FBAB54 /* mediaFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F677D98B29B6FD5800A0E4BB /* teethHelpCompleted.mp3 */,
+				F677D98C29B6FD5800A0E4BB /* teethHelpUp.mp3 */,
+				F677D98129B6FD4B00A0E4BB /* teethHelpDown.mp3 */,
+				F677D98529B6FD4C00A0E4BB /* teethHelpLeft.mp3 */,
+				F677D98329B6FD4B00A0E4BB /* teethHelpMiddle.mp3 */,
+				F677D98229B6FD4B00A0E4BB /* teethHelpRight.mp3 */,
+				F677D98429B6FD4B00A0E4BB /* teethHelpstraight.mp3 */,
+				F6752A6229656C9600C90A27 /* its-DoneAr.mp3 */,
+				F6DB004D29B0A6F000B6DF26 /* startScan.mp3 */,
+				F6752A5429654E8A00C90A27 /* tsarCompleted.mp3 */,
+				F6752A5929654E8A00C90A27 /* tsarLeft.mp3 */,
+				F6752A5629654E8A00C90A27 /* tsarMiddle.mp3 */,
+				F6EA6E6F297016F3000574A0 /* facealonecompleted.mp3 */,
+				F6752A5829654E8A00C90A27 /* tsarOpenDown.mp3 */,
+				F6752A5529654E8A00C90A27 /* tsarOpenup.mp3 */,
+				F6752A5729654E8A00C90A27 /* tsarRight.mp3 */,
+				F6752A5A29654E8B00C90A27 /* tsarStraight.mp3 */,
+				F64A7C8929420B6C00B4790C /* FaCloser.mp3 */,
+				F64A7CB22942195900B4790C /* FhRight.mp3 */,
+				F64A7C9129420B6D00B4790C /* FaCompleted.mp3 */,
+				F64A7C8B29420B6D00B4790C /* FaFurther.mp3 */,
+				F64A7C9329420B6D00B4790C /* FaLeft.mp3 */,
+				F64A7C8D29420B6D00B4790C /* FaMiddle.mp3 */,
+				F64A7C9829420B6E00B4790C /* FaRight.mp3 */,
+				F64A7C8F29420B6D00B4790C /* FaStraight.mp3 */,
+				F64A7C8C29420B6D00B4790C /* FhLeft.mp3 */,
+				F64A7C9029420B6D00B4790C /* FHStraight.mp3 */,
+				F64A7C9229420B6D00B4790C /* scanCompleted.mp3 */,
+				F64A7C9529420B6E00B4790C /* TsAttatch.mp3 */,
+				F64A7C9429420B6D00B4790C /* TsCompleted.mp3 */,
+				F64A7C9B29420B6E00B4790C /* TsLeft.mp3 */,
+				F64A7C8A29420B6D00B4790C /* TsLower.mp3 */,
+				F63DBA062964243200432037 /* arfacealonecompleted.mp3 */,
+				F63DBA032964243100432037 /* arfacealoneleft.mp3 */,
+				F63DBA042964243100432037 /* arfacealonemiddle.mp3 */,
+				F63DBA022964243100432037 /* arfacealoneright.mp3 */,
+				F63DBA052964243100432037 /* arfacealonestraight.mp3 */,
+				F64A7C9629420B6E00B4790C /* TsMiddle.mp3 */,
+				F64A7C8E29420B6D00B4790C /* TsRight.mp3 */,
+				F64A7C9729420B6E00B4790C /* TsScope.mp3 */,
+				F64A7C9929420B6E00B4790C /* TsStart.mp3 */,
+				F64A7C9A29420B6E00B4790C /* TsStraight.mp3 */,
+				F64A7CB02942110200B4790C /* TsUOpen.mp3 */,
+				F64A7C8829420B6C00B4790C /* TsUpper.mp3 */,
+				F64C67EA28FFE1E000AC7D66 /* banner.swift */,
+				F67C138D290A673300FBAB54 /* camera.mp3 */,
+				F67C1389290A673200FBAB54 /* click.mp3 */,
+				F67C1391290A673300FBAB54 /* FS-Correctposition.mp3 */,
+				F67C139B290A673400FBAB54 /* FS-HoldScan.mp3 */,
+				F67C138A290A673200FBAB54 /* FS-StraightAgain.mp3 */,
+				F67C139C290A673400FBAB54 /* FSCLOSER.mp3 */,
+				F67C1397290A673400FBAB54 /* FSFAR.mp3 */,
+				F67C1388290A673200FBAB54 /* FSH-Completed.mp3 */,
+				F67C1387290A673200FBAB54 /* FSH-Left.mp3 */,
+				F67C1396290A673400FBAB54 /* FSH-Right.mp3 */,
+				F67C1385290A673200FBAB54 /* FSH-Straight.mp3 */,
+				F67C138C290A673300FBAB54 /* FSInstr.mp3 */,
+				F67C1393290A673300FBAB54 /* its-Done.mp3 */,
+				F67C138F290A673300FBAB54 /* Left.mp3 */,
+				F67C139D290A673400FBAB54 /* Right.mp3 */,
+				F67C139A290A673400FBAB54 /* Straight.mp3 */,
+				F67C1399290A673400FBAB54 /* TS-Center.mp3 */,
+				F67C138B290A673300FBAB54 /* TS-Complete.mp3 */,
+				F67C1390290A673300FBAB54 /* Ts-instruction.mp3 */,
+				F6752A4F296457A100C90A27 /* arfacehelpCompleted.mp3 */,
+				F6752A4C296457A100C90A27 /* arfacehelpeStraight.mp3 */,
+				F6752A4E296457A100C90A27 /* arfacehelpLeft.mp3 */,
+				F6752A4D296457A100C90A27 /* arfacehelpRight.mp3 */,
+				F6529B6E2983C00000C0B949 /* smileteeth.mp3 */,
+				F67C138E290A673300FBAB54 /* TS-Left.mp3 */,
+				F67C1392290A673300FBAB54 /* TS-lower.mp3 */,
+				F67C1386290A673200FBAB54 /* TS-Right.mp3 */,
+				F6529B702983CB3700C0B949 /* FsHelpSmile.mp3 */,
+				F67C1394290A673300FBAB54 /* TS-Straight.mp3 */,
+				F67C1395290A673300FBAB54 /* TS-StraightIn.mp3 */,
+				F688B059297A6C6400437801 /* FaLeftNew.mp3 */,
+				F688B05A297A6C6400437801 /* FaRightNew.mp3 */,
+				F6185515290A9B7600F97163 /* RPReplay_Final1660553592 2.mov */,
+				F67C1398290A673400FBAB54 /* TS-Upper.mp3 */,
+			);
+			path = mediaFiles;
+			sourceTree = "<group>";
+		};
+		F68A4ADC29D40EFF00F302EB /* webservice */ = {
+			isa = PBXGroup;
+			children = (
+				F68A4ADD29D40F5700F302EB /* appointmentbookingWebservice.swift */,
+				F6A982E029DEAAE200E75AA9 /* appointmentListWebService.swift */,
+			);
+			path = webservice;
+			sourceTree = "<group>";
+		};
+		F68CE445290FD7DE00FEAB2E /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				F68CE442290FD7B000FEAB2E /* ChatWebservice.swift */,
+				F68CE44D290FF55100FEAB2E /* LibraryWebService.swift */,
+				F68FE94D29C311E200983400 /* NotificationWebservice.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		F68CE446290FD81200FEAB2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F68CE447290FD84400FEAB2E /* ChatModel.swift */,
+				F63D930E29C3420B00C5D505 /* NotificationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6C918A62A78D9EC009A3839 /* webService */ = {
+			isa = PBXGroup;
+			children = (
+				F6C918A42A78D9E5009A3839 /* DrHomeWebService.swift */,
+			);
+			path = webService;
+			sourceTree = "<group>";
+		};
+		F6CE66062902915600A58E74 /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				F6CE66072902998100A58E74 /* LoginWebservice.swift */,
+				F6CE660E2902A0A000A58E74 /* SignUpWebService.swift */,
+				F65BE0DB2906ACD900A6B482 /* OTPwebService.swift */,
+				F65BE0DD2906C05600A6B482 /* ForgotPasswordWebservice.swift */,
+			);
+			path = Webservice;
+			sourceTree = "<group>";
+		};
+		F6CE660929029EB800A58E74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6CE660A29029EE300A58E74 /* LoginModel.swift */,
+				F6CE66102902BB7D00A58E74 /* SignUPModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F64C67B228FFE18C00AC7D66 /* Dental Care */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64C67E028FFE18F00AC7D66 /* Build configuration list for PBXNativeTarget "Dental Care" */;
+			buildPhases = (
+				3A9B9D486694EB64A5DBBBD3 /* [CP] Check Pods Manifest.lock */,
+				F64C67AF28FFE18C00AC7D66 /* Sources */,
+				F64C67B028FFE18C00AC7D66 /* Frameworks */,
+				F64C67B128FFE18C00AC7D66 /* Resources */,
+				F6B6F1D629FF8FB40033A231 /* ShellScript */,
+				21615D6B69E0EBFD16FA7DA9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dental Care";
+			productName = "Dental Care";
+			productReference = F64C67B328FFE18C00AC7D66 /* Dental Care.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F64C67CB28FFE18F00AC7D66 /* Dental CareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64C67E328FFE18F00AC7D66 /* Build configuration list for PBXNativeTarget "Dental CareTests" */;
+			buildPhases = (
+				EB9522874B6097E6CF7F648F /* [CP] Check Pods Manifest.lock */,
+				F64C67C828FFE18F00AC7D66 /* Sources */,
+				F64C67C928FFE18F00AC7D66 /* Frameworks */,
+				F64C67CA28FFE18F00AC7D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F64C67CE28FFE18F00AC7D66 /* PBXTargetDependency */,
+			);
+			name = "Dental CareTests";
+			productName = "Dental CareTests";
+			productReference = F64C67CC28FFE18F00AC7D66 /* Dental CareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F64C67D528FFE18F00AC7D66 /* Dental CareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64C67E628FFE18F00AC7D66 /* Build configuration list for PBXNativeTarget "Dental CareUITests" */;
+			buildPhases = (
+				CC898A71E64D50BA55B75179 /* [CP] Check Pods Manifest.lock */,
+				F64C67D228FFE18F00AC7D66 /* Sources */,
+				F64C67D328FFE18F00AC7D66 /* Frameworks */,
+				F64C67D428FFE18F00AC7D66 /* Resources */,
+				208C4498AFF2AC7D1A8BCF74 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F64C67D828FFE18F00AC7D66 /* PBXTargetDependency */,
+			);
+			name = "Dental CareUITests";
+			productName = "Dental CareUITests";
+			productReference = F64C67D628FFE18F00AC7D66 /* Dental CareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F64C67AB28FFE18C00AC7D66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F64C67B228FFE18C00AC7D66 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F64C67CB28FFE18F00AC7D66 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F64C67B228FFE18C00AC7D66;
+					};
+					F64C67D528FFE18F00AC7D66 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F64C67B228FFE18C00AC7D66;
+					};
+				};
+			};
+			buildConfigurationList = F64C67AE28FFE18C00AC7D66 /* Build configuration list for PBXProject "Dental Care" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = F64C67AA28FFE18C00AC7D66;
+			productRefGroup = F64C67B428FFE18C00AC7D66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F64C67B228FFE18C00AC7D66 /* Dental Care */,
+				F64C67CB28FFE18F00AC7D66 /* Dental CareTests */,
+				F64C67D528FFE18F00AC7D66 /* Dental CareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F64C67B128FFE18C00AC7D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67C13AE290A673400FBAB54 /* TS-StraightIn.mp3 in Resources */,
+				F67C13B0290A673400FBAB54 /* FSFAR.mp3 in Resources */,
+				F67C13AF290A673400FBAB54 /* FSH-Right.mp3 in Resources */,
+				F67C139F290A673400FBAB54 /* TS-Right.mp3 in Resources */,
+				F63DBA0B2964243200432037 /* arfacealonecompleted.mp3 in Resources */,
+				F6752A5B29654E8B00C90A27 /* tsarCompleted.mp3 in Resources */,
+				F6AF3F942A5FF29D000C5258 /* AppointmentStory.storyboard in Resources */,
+				F64A7CAE29420B6E00B4790C /* TsStraight.mp3 in Resources */,
+				F67C13B3290A673400FBAB54 /* Straight.mp3 in Resources */,
+				F69C9396295182CF002CAFB6 /* ProfileSB.storyboard in Resources */,
+				F64A7CB32942195A00B4790C /* FhRight.mp3 in Resources */,
+				F67C13B6290A673400FBAB54 /* Right.mp3 in Resources */,
+				F67C13AA290A673400FBAB54 /* FS-Correctposition.mp3 in Resources */,
+				F64A7CA229420B6E00B4790C /* TsRight.mp3 in Resources */,
+				F69F199E29C1ABE800773937 /* GoogleService-Info.plist in Resources */,
+				F677D98A29B6FD4C00A0E4BB /* teethHelpLeft.mp3 in Resources */,
+				F67C13A6290A673400FBAB54 /* camera.mp3 in Resources */,
+				F64A7CA729420B6E00B4790C /* FaLeft.mp3 in Resources */,
+				F64A7CA629420B6E00B4790C /* scanCompleted.mp3 in Resources */,
+				F67C13A3290A673400FBAB54 /* FS-StraightAgain.mp3 in Resources */,
+				F6752A6129654E8B00C90A27 /* tsarStraight.mp3 in Resources */,
+				F69C9388295088E0002CAFB6 /* Home.storyboard in Resources */,
+				F64C67C628FFE18F00AC7D66 /* LaunchScreen.storyboard in Resources */,
+				F64A7CA129420B6E00B4790C /* FaMiddle.mp3 in Resources */,
+				F69A36BC2959B4D300F74E97 /* Poppins-Font-2 in Resources */,
+				F6752A5C29654E8B00C90A27 /* tsarOpenup.mp3 in Resources */,
+				F67C13A4290A673400FBAB54 /* TS-Complete.mp3 in Resources */,
+				F6752A50296457A100C90A27 /* arfacehelpeStraight.mp3 in Resources */,
+				F67C13B1290A673400FBAB54 /* TS-Upper.mp3 in Resources */,
+				F64A7CAB29420B6E00B4790C /* TsScope.mp3 in Resources */,
+				F688B05C297A6C6400437801 /* FaRightNew.mp3 in Resources */,
+				F67C139E290A673400FBAB54 /* FSH-Straight.mp3 in Resources */,
+				F64A7CA429420B6E00B4790C /* FHStraight.mp3 in Resources */,
+				F67C13A5290A673400FBAB54 /* FSInstr.mp3 in Resources */,
+				F63DBA072964243200432037 /* arfacealoneright.mp3 in Resources */,
+				F677D98729B6FD4C00A0E4BB /* teethHelpRight.mp3 in Resources */,
+				F642A0DA296BE52B00584D6D /* Drhome.storyboard in Resources */,
+				F64A7CA829420B6E00B4790C /* TsCompleted.mp3 in Resources */,
+				F67C13AC290A673400FBAB54 /* its-Done.mp3 in Resources */,
+				F64A7CA929420B6E00B4790C /* TsAttatch.mp3 in Resources */,
+				F6752A6029654E8B00C90A27 /* tsarLeft.mp3 in Resources */,
+				F6529B712983CB3700C0B949 /* FsHelpSmile.mp3 in Resources */,
+				F69C939D29518762002CAFB6 /* Review.storyboard in Resources */,
+				F69C938F2950992F002CAFB6 /* ScanSB.storyboard in Resources */,
+				F67C13A8290A673400FBAB54 /* Left.mp3 in Resources */,
+				F6752A6329656C9600C90A27 /* its-DoneAr.mp3 in Resources */,
+				F677D98929B6FD4C00A0E4BB /* teethHelpstraight.mp3 in Resources */,
+				F677D98629B6FD4C00A0E4BB /* teethHelpDown.mp3 in Resources */,
+				F64A7CAC29420B6E00B4790C /* FaRight.mp3 in Resources */,
+				F64C67C328FFE18F00AC7D66 /* Assets.xcassets in Resources */,
+				F650F7AA29000DC600A9A266 /* alegreya-sans in Resources */,
+				F64A7CAA29420B6E00B4790C /* TsMiddle.mp3 in Resources */,
+				F67C13A0290A673400FBAB54 /* FSH-Left.mp3 in Resources */,
+				F650F7AC29000DD000A9A266 /* Acme in Resources */,
+				F64A7CA529420B6E00B4790C /* FaCompleted.mp3 in Resources */,
+				F6752A53296457A100C90A27 /* arfacehelpCompleted.mp3 in Resources */,
+				F6DB004E29B0A6F000B6DF26 /* startScan.mp3 in Resources */,
+				F67C13B2290A673400FBAB54 /* TS-Center.mp3 in Resources */,
+				F67C13AD290A673400FBAB54 /* TS-Straight.mp3 in Resources */,
+				F64A7C9F29420B6E00B4790C /* FaFurther.mp3 in Resources */,
+				F6529B6F2983C00000C0B949 /* smileteeth.mp3 in Resources */,
+				F64A7CAD29420B6E00B4790C /* TsStart.mp3 in Resources */,
+				F64A7CA029420B6E00B4790C /* FhLeft.mp3 in Resources */,
+				F67C13A7290A673400FBAB54 /* TS-Left.mp3 in Resources */,
+				F64A7CB12942110200B4790C /* TsUOpen.mp3 in Resources */,
+				F6EA6E70297016F3000574A0 /* facealonecompleted.mp3 in Resources */,
+				F6752A5E29654E8B00C90A27 /* tsarRight.mp3 in Resources */,
+				F677D98E29B6FD5800A0E4BB /* teethHelpUp.mp3 in Resources */,
+				F63DBA082964243200432037 /* arfacealoneleft.mp3 in Resources */,
+				F64A7C9C29420B6E00B4790C /* TsUpper.mp3 in Resources */,
+				F67C13A2290A673400FBAB54 /* click.mp3 in Resources */,
+				F67C13B4290A673400FBAB54 /* FS-HoldScan.mp3 in Resources */,
+				F69C93A429518C91002CAFB6 /* CustomStory.storyboard in Resources */,
+				F64A7C9D29420B6E00B4790C /* FaCloser.mp3 in Resources */,
+				F677D98829B6FD4C00A0E4BB /* teethHelpMiddle.mp3 in Resources */,
+				F6752A5F29654E8B00C90A27 /* tsarOpenDown.mp3 in Resources */,
+				F64A7C9E29420B6E00B4790C /* TsLower.mp3 in Resources */,
+				F67C13A1290A673400FBAB54 /* FSH-Completed.mp3 in Resources */,
+				F64C67BE28FFE18C00AC7D66 /* Main.storyboard in Resources */,
+				F64A7CAF29420B6E00B4790C /* TsLeft.mp3 in Resources */,
+				F67C13A9290A673400FBAB54 /* Ts-instruction.mp3 in Resources */,
+				F63DBA0A2964243200432037 /* arfacealonestraight.mp3 in Resources */,
+				F677D98D29B6FD5800A0E4BB /* teethHelpCompleted.mp3 in Resources */,
+				F688B05B297A6C6400437801 /* FaLeftNew.mp3 in Resources */,
+				F63DBA092964243200432037 /* arfacealonemiddle.mp3 in Resources */,
+				F67C13B5290A673400FBAB54 /* FSCLOSER.mp3 in Resources */,
+				F6752A52296457A100C90A27 /* arfacehelpLeft.mp3 in Resources */,
+				F64A7CA329420B6E00B4790C /* FaStraight.mp3 in Resources */,
+				F67C13AB290A673400FBAB54 /* TS-lower.mp3 in Resources */,
+				F6752A5D29654E8B00C90A27 /* tsarMiddle.mp3 in Resources */,
+				F6752A51296457A100C90A27 /* arfacehelpRight.mp3 in Resources */,
+				F6185516290A9B7600F97163 /* RPReplay_Final1660553592 2.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64C67CA28FFE18F00AC7D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64C67D428FFE18F00AC7D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		208C4498AFF2AC7D1A8BCF74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dental Care-Dental CareUITests/Pods-Dental Care-Dental CareUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dental Care-Dental CareUITests/Pods-Dental Care-Dental CareUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dental Care-Dental CareUITests/Pods-Dental Care-Dental CareUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21615D6B69E0EBFD16FA7DA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dental Care/Pods-Dental Care-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dental Care/Pods-Dental Care-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dental Care/Pods-Dental Care-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A9B9D486694EB64A5DBBBD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dental Care-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC898A71E64D50BA55B75179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dental Care-Dental CareUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB9522874B6097E6CF7F648F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dental CareTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B6F1D629FF8FB40033A231 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F64C67AF28FFE18C00AC7D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CE660F2902A0A000A58E74 /* SignUpWebService.swift in Sources */,
+				F6627B332901201000F63A7E /* SignUpVC.swift in Sources */,
+				F6C918A52A78D9E5009A3839 /* DrHomeWebService.swift in Sources */,
+				F6F5987B2A149B9000FFD5F4 /* videocontrolllerVC.swift in Sources */,
+				F65BE0DE2906C05600A6B482 /* ForgotPasswordWebservice.swift in Sources */,
+				F6A4F4622A41E12B001FD6D3 /* VideoCallVC.swift in Sources */,
+				F675B0E1292B5D460073F190 /* dentalCareLanguageManager.swift in Sources */,
+				F68CE448290FD84400FEAB2E /* ChatModel.swift in Sources */,
+				F67C13B8290A7ABF00FBAB54 /* ScannSelectionVC.swift in Sources */,
+				F64C67ED28FFE1EB00AC7D66 /* AudioHelper.swift in Sources */,
+				F618551B290AA60F00F97163 /* FinalReviewVC.swift in Sources */,
+				F65BE0E02906C80600A6B482 /* SetPasswordVC.swift in Sources */,
+				F68FE94C29C2F5FD00983400 /* NotificationVC.swift in Sources */,
+				F6CE660529028CD900A58E74 /* OTPVC.swift in Sources */,
+				F68CE437290FB10400FEAB2E /* AddMemberVC.swift in Sources */,
+				F6776276299CE7FF00B62806 /* DrHomeVC.swift in Sources */,
+				F6A982E129DEAAE200E75AA9 /* appointmentListWebService.swift in Sources */,
+				F66019CA29754D2600F74DBD /* ServiceManager.swift in Sources */,
+				F6185526290BBAE500F97163 /* MyScanVC.swift in Sources */,
+				F669B0EA29E3D5B500A18664 /* AppointmentBookingDetailVC.swift in Sources */,
+				F673E77B297FBA9500CD2A22 /* ScanTestVC.swift in Sources */,
+				F64C67F328FFE20F00AC7D66 /* Extensions.swift in Sources */,
+				F68CE44C290FE4A000FEAB2E /* ChatCells.swift in Sources */,
+				F63D930F29C3420B00C5D505 /* NotificationModel.swift in Sources */,
+				F6DA0DA129AC9B8F00530306 /* TeethScanVC.swift in Sources */,
+				F68CE42F290F927B00FEAB2E /* EditProfileVC.swift in Sources */,
+				F65F8E85291E7620007CD9F5 /* FAQVC.swift in Sources */,
+				F64C67F528FFE21A00AC7D66 /* NetworkManager.swift in Sources */,
+				F67C1381290A53AE00FBAB54 /* ScanExtension.swift in Sources */,
+				F6F61EB829D58FDD007A0BAB /* AppointmentPopUpVC.swift in Sources */,
+				F64210532908F97400068D45 /* ProfileVC.swift in Sources */,
+				F64C67EF28FFE1F600AC7D66 /* ConnectivityCheck.swift in Sources */,
+				F65BE0E22907B67700A6B482 /* contactUsVC.swift in Sources */,
+				F642105F29095BB600068D45 /* ScanVC.swift in Sources */,
+				F642105729091B4100068D45 /* ChatConversationsVC.swift in Sources */,
+				F6519305290FFDFE00E06BEC /* ArticleDetailVC.swift in Sources */,
+				F6588D0D290BCC070091373E /* MyScanImagesVC.swift in Sources */,
+				F68CE433290F994100FEAB2E /* ProfileModel.swift in Sources */,
+				F6268F9F29BAFF19004037E2 /* RetakeViewImageVC.swift in Sources */,
+				F64C67BB28FFE18C00AC7D66 /* ViewController.swift in Sources */,
+				F61DC06629CC162900800094 /* TeethScanLanVC.swift in Sources */,
+				F6588D0F290BD97F0091373E /* ImageViewVC.swift in Sources */,
+				F68A4ADE29D40F5700F302EB /* appointmentbookingWebservice.swift in Sources */,
+				F6CE66082902998100A58E74 /* LoginWebservice.swift in Sources */,
+				F6F61EB629D56BBD007A0BAB /* AppointmentTypeVC.swift in Sources */,
+				F6C9767E2AB3294900DE53A5 /* AppointmentdrSelectionVC.swift in Sources */,
+				F64C67F728FFE22500AC7D66 /* utilities.swift in Sources */,
+				F675B0E7292B640E0073F190 /* AppState.swift in Sources */,
+				F64C67B728FFE18C00AC7D66 /* AppDelegate.swift in Sources */,
+				F675B0E5292B5E230073F190 /* DCPlistHelper.swift in Sources */,
+				F6529B732983FEBF00C0B949 /* ScanPopupVC.swift in Sources */,
+				F68CE441290FD00000FEAB2E /* LogoutVC.swift in Sources */,
+				F64C67FB28FFE25A00AC7D66 /* AppConstants.swift in Sources */,
+				F68CE44E290FF55100FEAB2E /* LibraryWebService.swift in Sources */,
+				F64C67C128FFE18C00AC7D66 /* Dental_Care.xcdatamodeld in Sources */,
+				F65D320B290A954000F77149 /* ScanTutorialVC.swift in Sources */,
+				F68CE443290FD7B000FEAB2E /* ChatWebservice.swift in Sources */,
+				F67DDEDB296FCA90003DDACA /* scanModeVC.swift in Sources */,
+				F650F7B0290045C900A9A266 /* LoginVC.swift in Sources */,
+				F6170B9829B858FD00E8E6E3 /* RetakeVC.swift in Sources */,
+				F618551E290BA1D600F97163 /* ScanWebservice.swift in Sources */,
+				F6B6F1D829FFABE30033A231 /* AppointmentAllBookVC.swift in Sources */,
+				F6185520290BA92700F97163 /* ReviewPopUpVC.swift in Sources */,
+				F68A4AE029D41E2100F302EB /* AppointmentModel.swift in Sources */,
+				F6421059290920B600068D45 /* LibraryVC.swift in Sources */,
+				F6CE660B29029EE300A58E74 /* LoginModel.swift in Sources */,
+				F69A36BA2959804000F74E97 /* SocketIOManager.swift in Sources */,
+				F68A4ADB29D40B4B00F302EB /* AppointmentQueryVC.swift in Sources */,
+				F618552B290BBEF300F97163 /* MyScanModel.swift in Sources */,
+				F6A982DF29DEA2D100E75AA9 /* AppointmentAllBookingsVC.swift in Sources */,
+				F6A5E5A7290BF8EB0099225D /* FamilyMembersVC.swift in Sources */,
+				F65193072910014A00E06BEC /* DoctorSelectionVC.swift in Sources */,
+				F68CE439290FBEE800FEAB2E /* AddMemberWebService.swift in Sources */,
+				F64C67EB28FFE1E000AC7D66 /* banner.swift in Sources */,
+				F64C67F128FFE20100AC7D66 /* BaseURL.swift in Sources */,
+				F68CE43D290FC54400FEAB2E /* CustomVC.swift in Sources */,
+				F675B0DF292B5D200073F190 /* dentalCareLanguageConstants.swift in Sources */,
+				F68CE431290F98B200FEAB2E /* EditProfileWebService.swift in Sources */,
+				F6CE660329028CC600A58E74 /* ForgotPasswordPhoneVC.swift in Sources */,
+				F65BE0E82907F2FC00A6B482 /* HomeVC.swift in Sources */,
+				F6185529290BBE0800F97163 /* myScanWebService.swift in Sources */,
+				F68A4AD929D40B2C00F302EB /* AppontmentDeptSelectionVC.swift in Sources */,
+				F64C67B928FFE18C00AC7D66 /* SceneDelegate.swift in Sources */,
+				F68FE94E29C311E200983400 /* NotificationWebservice.swift in Sources */,
+				F68CE43F290FC74C00FEAB2E /* customWebService.swift in Sources */,
+				F6CE66112902BB7D00A58E74 /* SignUPModel.swift in Sources */,
+				F6A5E5A9290BF97D0099225D /* FamilyMembersWebservice.swift in Sources */,
+				F65BE0DC2906ACD900A6B482 /* OTPwebService.swift in Sources */,
+				F6E10BBD29F7A74B004CC426 /* AppointmentPatientDetail.swift in Sources */,
+				F68CE44A290FE46600FEAB2E /* ChatViewController.swift in Sources */,
+				F6786C0829790FA100A08A47 /* ReviewimageVC.swift in Sources */,
+				F6421055290912B300068D45 /* CustomTabBarvc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64C67C828FFE18F00AC7D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64C67D128FFE18F00AC7D66 /* Dental_CareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64C67D228FFE18F00AC7D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64C67DB28FFE18F00AC7D66 /* Dental_CareUITests.swift in Sources */,
+				F64C67DD28FFE18F00AC7D66 /* Dental_CareUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F64C67CE28FFE18F00AC7D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F64C67B228FFE18C00AC7D66 /* Dental Care */;
+			targetProxy = F64C67CD28FFE18F00AC7D66 /* PBXContainerItemProxy */;
+		};
+		F64C67D828FFE18F00AC7D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F64C67B228FFE18C00AC7D66 /* Dental Care */;
+			targetProxy = F64C67D728FFE18F00AC7D66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F64C67BC28FFE18C00AC7D66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F64C67BD28FFE18C00AC7D66 /* Base */,
+				F69C938429506573002CAFB6 /* ar */,
+				F69C938729507163002CAFB6 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F64C67C428FFE18F00AC7D66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F64C67C528FFE18F00AC7D66 /* Base */,
+				F69C938529506573002CAFB6 /* ar */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F69C938A295088E0002CAFB6 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69C9389295088E0002CAFB6 /* Base */,
+				F69C938C295088E8002CAFB6 /* en */,
+				F69C938E295088E9002CAFB6 /* ar */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		F69C93912950992F002CAFB6 /* ScanSB.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69C93902950992F002CAFB6 /* Base */,
+				F69C939329509939002CAFB6 /* en */,
+				F69C93952950993C002CAFB6 /* ar */,
+			);
+			name = ScanSB.storyboard;
+			sourceTree = "<group>";
+		};
+		F69C9398295182CF002CAFB6 /* ProfileSB.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69C9397295182CF002CAFB6 /* Base */,
+				F69C939A295182D4002CAFB6 /* en */,
+				F69C939C295182D5002CAFB6 /* ar */,
+			);
+			name = ProfileSB.storyboard;
+			sourceTree = "<group>";
+		};
+		F69C939F29518762002CAFB6 /* Review.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69C939E29518762002CAFB6 /* Base */,
+				F69C93A12951876D002CAFB6 /* en */,
+				F69C93A32951876E002CAFB6 /* ar */,
+			);
+			name = Review.storyboard;
+			sourceTree = "<group>";
+		};
+		F69C93A629518C91002CAFB6 /* CustomStory.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69C93A529518C91002CAFB6 /* Base */,
+				F69C93A829518C93002CAFB6 /* en */,
+				F69C93AA29518C95002CAFB6 /* ar */,
+			);
+			name = CustomStory.storyboard;
+			sourceTree = "<group>";
+		};
+		F6AF3F962A5FF29D000C5258 /* AppointmentStory.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6AF3F952A5FF29D000C5258 /* Base */,
+				F6AF3F982A5FF2A6000C5258 /* en */,
+				F6AF3F9A2A5FF2AB000C5258 /* ar */,
+			);
+			name = AppointmentStory.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F64C67DE28FFE18F00AC7D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F64C67DF28FFE18F00AC7D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F64C67E128FFE18F00AC7D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB8BE9276C28F3A145CC748 /* Pods-Dental Care.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dental Care/Dental Care.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = RDQ2FBDD7R;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dental Care/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Appolonia;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This App requires your Date of Birth for your treatment and further proceedings";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app require access to your camera to capture your face or teeth  for doctors to analyze and suggest treatment plan";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone to record audio for voice videocall functionality";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.035;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appolonia-dental.Dental-Care";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F64C67E228FFE18F00AC7D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1A7FDEB0536480FA59F555 /* Pods-Dental Care.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dental Care/Dental Care.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = RDQ2FBDD7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dental Care/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Appolonia;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This App requires your Date of Birth for your treatment and further proceedings";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app require access to your camera to capture your face or teeth  for doctors to analyze and suggest treatment plan";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone to record audio for voice videocall functionality";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.035;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appolonia-dental.Dental-Care";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F64C67E428FFE18F00AC7D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F752213B95C3CE10B40C1A49 /* Pods-Dental CareTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDQ2FBDD7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appolonia-dental.Dental-CareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dental Care.app/Dental Care";
+			};
+			name = Debug;
+		};
+		F64C67E528FFE18F00AC7D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CFCA0EB79245C9BD12734B /* Pods-Dental CareTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDQ2FBDD7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appolonia-dental.Dental-CareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dental Care.app/Dental Care";
+			};
+			name = Release;
+		};
+		F64C67E728FFE18F00AC7D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D956A60DB7D412505660C8 /* Pods-Dental Care-Dental CareUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDQ2FBDD7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appolonia-dental.Dental-CareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dental Care";
+			};
+			name = Debug;
+		};
+		F64C67E828FFE18F00AC7D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1ED3B9179E4E91DA1CC6A8 /* Pods-Dental Care-Dental CareUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDQ2FBDD7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appolonia-dental.Dental-CareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dental Care";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F64C67AE28FFE18C00AC7D66 /* Build configuration list for PBXProject "Dental Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64C67DE28FFE18F00AC7D66 /* Debug */,
+				F64C67DF28FFE18F00AC7D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64C67E028FFE18F00AC7D66 /* Build configuration list for PBXNativeTarget "Dental Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64C67E128FFE18F00AC7D66 /* Debug */,
+				F64C67E228FFE18F00AC7D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64C67E328FFE18F00AC7D66 /* Build configuration list for PBXNativeTarget "Dental CareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64C67E428FFE18F00AC7D66 /* Debug */,
+				F64C67E528FFE18F00AC7D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64C67E628FFE18F00AC7D66 /* Build configuration list for PBXNativeTarget "Dental CareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64C67E728FFE18F00AC7D66 /* Debug */,
+				F64C67E828FFE18F00AC7D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F64C67BF28FFE18C00AC7D66 /* Dental_Care.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F64C67C028FFE18C00AC7D66 /* Dental_Care.xcdatamodel */,
+			);
+			currentVersion = F64C67C028FFE18C00AC7D66 /* Dental_Care.xcdatamodel */;
+			path = Dental_Care.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F64C67AB28FFE18C00AC7D66 /* Project object */;
+}

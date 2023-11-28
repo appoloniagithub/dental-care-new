@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "  Privacy Policy"; ObjectID = "FS1-bs-FxZ"; */
+"FS1-bs-FxZ.text" = "السياسة و الخصوصية";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "IH0-JY-SOw"; */
+"IH0-JY-SOw.text" = "";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "N6D-7P-4g8"; */
+"N6D-7P-4g8.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "N6D-7P-4g8"; */
+"N6D-7P-4g8.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Yes"; ObjectID = "NZo-NE-TC8"; */
+"NZo-NE-TC8.text" = "نعم";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QTy-EN-8rX"; */
+"QTy-EN-8rX.text" = " ";
+
+/* Class = "UILabel"; text = "Do you Wish To Logout"; ObjectID = "T0C-ZW-aq3"; */
+"T0C-ZW-aq3.text" = "هل ترغب في تسجيل الخروج";
+
+/* Class = "UIButton"; configuration.title = "   "; ObjectID = "YmE-cg-s1N"; */
+"YmE-cg-s1N.configuration.title" = "   ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YmE-cg-s1N"; */
+"YmE-cg-s1N.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "   "; ObjectID = "bSd-yp-yHc"; */
+"bSd-yp-yHc.configuration.title" = "   ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bSd-yp-yHc"; */
+"bSd-yp-yHc.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lTf-Uo-o7U"; */
+"lTf-Uo-o7U.text" = " ";
+
+/* Class = "UILabel"; text = "No"; ObjectID = "rFX-xJ-ENR"; */
+"rFX-xJ-ENR.text" = "لا";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "t8x-3d-ody"; */
+"t8x-3d-ody.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "t8x-3d-ody"; */
+"t8x-3d-ody.normalTitle" = " ";

@@ -1,0 +1,343 @@
+
+/* Class = "UILabel"; text = "Add Family Member"; ObjectID = "03X-PE-KQi"; */
+"03X-PE-KQi.text" = "أضف أفراد العائلة";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "1F2-Hx-Qt2"; */
+"1F2-Hx-Qt2.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1F2-Hx-Qt2"; */
+"1F2-Hx-Qt2.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "1JA-7U-XfZ"; */
+"1JA-7U-XfZ.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1JA-7U-XfZ"; */
+"1JA-7U-XfZ.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "1hd-zF-hN9"; */
+"1hd-zF-hN9.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1hd-zF-hN9"; */
+"1hd-zF-hN9.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Submit"; ObjectID = "1z2-zQ-SWW"; */
+"1z2-zQ-SWW.text" = "الإرسال";
+
+/* Class = "UILabel"; text = "File Number"; ObjectID = "2PN-qC-b90"; */
+"2PN-qC-b90.text" = "رقم الملف";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "3Yc-m4-4Bx"; */
+"3Yc-m4-4Bx.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3Yc-m4-4Bx"; */
+"3Yc-m4-4Bx.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "   "; ObjectID = "3mB-4a-9nx"; */
+"3mB-4a-9nx.configuration.title" = "   ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3mB-4a-9nx"; */
+"3mB-4a-9nx.normalTitle" = " ";
+
+/* Class = "UILabel"; text = " Edit Profile"; ObjectID = "3po-nA-CY9"; */
+"3po-nA-CY9.text" = "تعديل الملف الشخصي";
+
+/* Class = "UILabel"; text = "First Name"; ObjectID = "4Jd-pw-1Xi"; */
+"4Jd-pw-1Xi.text" = "الأسم الأول";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "4Ue-7j-afB"; */
+"4Ue-7j-afB.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4Ue-7j-afB"; */
+"4Ue-7j-afB.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "52O-aH-8CV"; */
+"52O-aH-8CV.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "52O-aH-8CV"; */
+"52O-aH-8CV.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "7mi-a3-4YY"; */
+"7mi-a3-4YY.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7mi-a3-4YY"; */
+"7mi-a3-4YY.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8OB-mJ-40n"; */
+"8OB-mJ-40n.text" = " ";
+
+/* Class = "UILabel"; text = "Add Member"; ObjectID = "8jb-5c-bKc"; */
+"8jb-5c-bKc.text" = "أضافة عضو";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "ABs-hI-chL"; */
+"ABs-hI-chL.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ABs-hI-chL"; */
+"ABs-hI-chL.normalTitle" = " ";
+
+/* Class = "UILabel"; text = " "; ObjectID = "BoS-zs-fea"; */
+"BoS-zs-fea.text" = " ";
+
+/* Class = "UILabel"; text = "Edit"; ObjectID = "CXN-fk-yEM"; */
+"CXN-fk-yEM.text" = "تعديل";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "DH9-9v-hg7"; */
+"DH9-9v-hg7.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "DH9-9v-hg7"; */
+"DH9-9v-hg7.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Email ID"; ObjectID = "DlJ-EI-5Qs"; */
+"DlJ-EI-5Qs.text" = "إيميل البطاقة الشخصية";
+
+/* Class = "UIButton"; configuration.title = "   "; ObjectID = "F9x-Bk-0m2"; */
+"F9x-Bk-0m2.configuration.title" = "   ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "F9x-Bk-0m2"; */
+"F9x-Bk-0m2.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Select Gender"; ObjectID = "FIV-w4-MOX"; */
+"FIV-w4-MOX.text" = "حدد نوع الجنس";
+
+/* Class = "UITextField"; placeholder = "Enter Your Last Name"; ObjectID = "FKX-i7-nIR"; */
+"FKX-i7-nIR.placeholder" = "أدخل اسمك الأخير";
+
+/* Class = "UILabel"; text = "Cancel"; ObjectID = "GIF-Zs-1KE"; */
+"GIF-Zs-1KE.text" = "إلغاء";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "GuD-Pd-9Dt"; */
+"GuD-Pd-9Dt.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GuD-Pd-9Dt"; */
+"GuD-Pd-9Dt.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "HW5-Gx-S2U"; */
+"HW5-Gx-S2U.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HW5-Gx-S2U"; */
+"HW5-Gx-S2U.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Select City"; ObjectID = "I86-uV-ZIE"; */
+"I86-uV-ZIE.text" = "اختر المدينة";
+
+/* Class = "UILabel"; text = "My Scans"; ObjectID = "IXQ-6i-9D6"; */
+"IXQ-6i-9D6.text" = "مسحاتي";
+
+/* Class = "UILabel"; text = "Done"; ObjectID = "Ip7-ck-oeV"; */
+"Ip7-ck-oeV.text" = "تم";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "IuJ-Yg-bZC"; */
+"IuJ-Yg-bZC.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IuJ-Yg-bZC"; */
+"IuJ-Yg-bZC.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "No Scan Found"; ObjectID = "K1k-ih-WAY"; */
+"K1k-ih-WAY.text" = "لم يتم ايجاد مسحات";
+
+/* Class = "UITextField"; placeholder = "Enter your First Name"; ObjectID = "Lcu-oM-nUh"; */
+"Lcu-oM-nUh.placeholder" = "ادخل اسمك الأول";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "NHh-LJ-e2L"; */
+"NHh-LJ-e2L.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NHh-LJ-e2L"; */
+"NHh-LJ-e2L.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "Nqd-59-sCP"; */
+"Nqd-59-sCP.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Nqd-59-sCP"; */
+"Nqd-59-sCP.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "OY3-ZJ-ROd"; */
+"OY3-ZJ-ROd.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "OY3-ZJ-ROd"; */
+"OY3-ZJ-ROd.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Done"; ObjectID = "POI-Md-9C1"; */
+"POI-Md-9C1.text" = "تم";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "PfD-Sq-cBx"; */
+"PfD-Sq-cBx.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PfD-Sq-cBx"; */
+"PfD-Sq-cBx.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Cancel"; ObjectID = "QNF-C2-TCD"; */
+"QNF-C2-TCD.text" = "إلغاء";
+
+/* Class = "UILabel"; text = "Select City"; ObjectID = "QdA-oc-kLf"; */
+"QdA-oc-kLf.text" = "اختر المدينة";
+
+/* Class = "UILabel"; text = "Family Members"; ObjectID = "SDt-wX-dF9"; */
+"SDt-wX-dF9.text" = "أفراد الأسرة";
+
+/* Class = "UIButton"; configuration.title = "   "; ObjectID = "SFm-Eg-C47"; */
+"SFm-Eg-C47.configuration.title" = "   ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SFm-Eg-C47"; */
+"SFm-Eg-C47.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "Skr-8P-gsX"; */
+"Skr-8P-gsX.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Skr-8P-gsX"; */
+"Skr-8P-gsX.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "T6f-RL-kKY"; */
+"T6f-RL-kKY.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "T6f-RL-kKY"; */
+"T6f-RL-kKY.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "UfE-54-3Vg"; */
+"UfE-54-3Vg.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "UfE-54-3Vg"; */
+"UfE-54-3Vg.normalTitle" = " ";
+
+/* Class = "UITextField"; placeholder = "Enter  your Emirates ID "; ObjectID = "Ujo-4L-I1i"; */
+"Ujo-4L-I1i.placeholder" = "ادخل رقم البطاقة الإماراتية";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "V7m-gK-6Cz"; */
+"V7m-gK-6Cz.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "V7m-gK-6Cz"; */
+"V7m-gK-6Cz.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "WNp-as-ymw"; */
+"WNp-as-ymw.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WNp-as-ymw"; */
+"WNp-as-ymw.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Yws-ac-AT6"; */
+"Yws-ac-AT6.text" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aJO-UN-ywK"; */
+"aJO-UN-ywK.text" = " ";
+
+/* Class = "UILabel"; text = "Edit"; ObjectID = "b6d-WR-eM9"; */
+"b6d-WR-eM9.text" = "تعديل";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "c4W-Sx-770"; */
+"c4W-Sx-770.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "c4W-Sx-770"; */
+"c4W-Sx-770.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "cIg-Md-gep"; */
+"cIg-Md-gep.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cIg-Md-gep"; */
+"cIg-Md-gep.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "No Svan Found"; ObjectID = "cll-hx-4DL"; */
+"cll-hx-4DL.text" = "لم يتم ايجاد مسحات";
+
+/* Class = "UITextField"; placeholder = "Enter Email ID"; ObjectID = "dCb-Bb-T0i"; */
+"dCb-Bb-T0i.placeholder" = "أدخل البريد الإلكتروني";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dsj-8n-hOn"; */
+"dsj-8n-hOn.text" = " ";
+
+/* Class = "UILabel"; text = "Submit"; ObjectID = "e7u-mk-g8O"; */
+"e7u-mk-g8O.text" = "الإرسال";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "h6x-fl-mrO"; */
+"h6x-fl-mrO.text" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "hbC-qU-soU"; */
+"hbC-qU-soU.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hbC-qU-soU"; */
+"hbC-qU-soU.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "jJP-W2-lTr"; */
+"jJP-W2-lTr.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jJP-W2-lTr"; */
+"jJP-W2-lTr.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "kSM-kQ-loK"; */
+"kSM-kQ-loK.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "kSM-kQ-loK"; */
+"kSM-kQ-loK.normalTitle" = " ";
+
+/* Class = "UITextField"; placeholder = "Enter File Number"; ObjectID = "oXe-zl-l7C"; */
+"oXe-zl-l7C.placeholder" = "ادخل رقم الملف";
+
+/* Class = "UILabel"; text = "Birthday"; ObjectID = "ozR-yj-wsl"; */
+"ozR-yj-wsl.text" = "الميلاد";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "pAD-fa-7UU"; */
+"pAD-fa-7UU.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pAD-fa-7UU"; */
+"pAD-fa-7UU.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "My Scan"; ObjectID = "pwz-v0-eT5"; */
+"pwz-v0-eT5.text" = "مسحاتي";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "q9U-Mp-mv8"; */
+"q9U-Mp-mv8.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "q9U-Mp-mv8"; */
+"q9U-Mp-mv8.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Select Gender"; ObjectID = "rZa-LQ-Z5M"; */
+"rZa-LQ-Z5M.text" = "حدد نوع الجنس";
+
+/* Class = "UITextField"; placeholder = "Enter Your Date Of Birth"; ObjectID = "t7N-UA-ZJc"; */
+"t7N-UA-ZJc.placeholder" = "ادخل تاريخ ميلادك";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tgz-Zz-QQk"; */
+"tgz-Zz-QQk.text" = " ";
+
+/* Class = "UILabel"; text = "Done"; ObjectID = "twh-fM-sW8"; */
+"twh-fM-sW8.text" = "تم";
+
+/* Class = "UILabel"; text = "FAQS"; ObjectID = "uFB-Wd-HhY"; */
+"uFB-Wd-HhY.text" = "أسئلة وأجوبة";
+
+/* Class = "UILabel"; text = " Edit Profile"; ObjectID = "ugK-Fe-ThD"; */
+"ugK-Fe-ThD.text" = "تعديل الملف الشخصي";
+
+/* Class = "UILabel"; text = "Last Name"; ObjectID = "wA3-Xp-cTd"; */
+"wA3-Xp-cTd.text" = "الأسم الأخير";
+
+/* Class = "UILabel"; text = "My Scan"; ObjectID = "wAP-JZ-zDT"; */
+"wAP-JZ-zDT.text" = "مسحاتي";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wIO-Et-b1E"; */
+"wIO-Et-b1E.text" = " ";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "wSx-Xh-wiz"; */
+"wSx-Xh-wiz.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "wSx-Xh-wiz"; */
+"wSx-Xh-wiz.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Emirates ID"; ObjectID = "wWd-Oa-8cS"; */
+"wWd-Oa-8cS.text" = "البطاقة الإماراتية";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "wwT-4a-dPz"; */
+"wwT-4a-dPz.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "wwT-4a-dPz"; */
+"wwT-4a-dPz.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "xZC-Y6-ckF"; */
+"xZC-Y6-ckF.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xZC-Y6-ckF"; */
+"xZC-Y6-ckF.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Add Member"; ObjectID = "xfO-aC-jNz"; */
+"xfO-aC-jNz.text" = "إضافة عضو";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yqh-pX-rVm"; */
+"yqh-pX-rVm.text" = " ";
+

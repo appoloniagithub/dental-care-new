@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "Wait for your dentist evaluate and get back to you"; ObjectID = "2Il-dS-AHR"; */
+"2Il-dS-AHR.text" = "انتظر تقييم طبيب أسنانك والعودة إليك";
+
+/* Class = "UILabel"; text = " Your Scanned Images has been submited"; ObjectID = "48s-DQ-HHS"; */
+"48s-DQ-HHS.text" = "تم إرسال الصور الممسوحة ضوئيًا";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "C8k-Ic-CHU"; */
+"C8k-Ic-CHU.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "C8k-Ic-CHU"; */
+"C8k-Ic-CHU.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "DdK-2z-2RF"; */
+"DdK-2z-2RF.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "DdK-2z-2RF"; */
+"DdK-2z-2RF.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "Hmu-He-xSq"; */
+"Hmu-He-xSq.text" = "المنزل";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "Zxu-rx-Eux"; */
+"Zxu-rx-Eux.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Zxu-rx-Eux"; */
+"Zxu-rx-Eux.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Submit"; ObjectID = "clf-Qi-oSz"; */
+"clf-Qi-oSz.text" = "الإرسال";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "hHR-nS-f4t"; */
+"hHR-nS-f4t.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hHR-nS-f4t"; */
+"hHR-nS-f4t.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "View Scan"; ObjectID = "ma3-J5-e4g"; */
+"ma3-J5-e4g.text" = "مشاهدة المسح";
+
+/* Class = "UILabel"; text = "Scan Submited"; ObjectID = "nLu-fe-0Fs"; */
+"nLu-fe-0Fs.text" = "تم إرسال المسح الضوئي";
+
+/* Class = "UIButton"; configuration.title = "  "; ObjectID = "oX1-sD-wcC"; */
+"oX1-sD-wcC.configuration.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oX1-sD-wcC"; */
+"oX1-sD-wcC.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Review Scans"; ObjectID = "zSe-gu-qgm"; */
+"zSe-gu-qgm.text" = "مراجعة عمليات المسح";
